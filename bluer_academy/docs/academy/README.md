@@ -1,4 +1,4 @@
 # academy
 
-`@academy` an academy for practical AI in Iran.
+📐 an academy for practical AI in Iran.
 
