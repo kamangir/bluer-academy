@@ -11,4 +11,4 @@ includes:
 
 requires: [linux](./linux.md)
 
-duration: 12 hours
+duration: 12.0 hours

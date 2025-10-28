@@ -67,6 +67,16 @@ class Syllabus:
         return True, G
 
     @property
+    def cost(self) -> float:
+        return sum(
+            [
+                topic.cost
+                for topic in self.list_of_topics
+                if isinstance(topic.cost, float)
+            ]
+        )
+
+    @property
     def list_of_topic_names(self) -> List[str]:
         return [topic.name for topic in self.list_of_topics]
 

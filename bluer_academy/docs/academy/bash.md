@@ -8,4 +8,4 @@ includes:
 
 requires: [linux](./linux.md), [python](./python.md)
 
-duration: 3 hours
+duration: 3.0 hours

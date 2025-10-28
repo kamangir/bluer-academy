@@ -5,4 +5,4 @@ includes:
 
 requires: [linux](./linux.md), [python](./python.md), [github](./github.md), [bash](./bash.md)
 
-duration: 3 hours
+duration: 3.0 hours

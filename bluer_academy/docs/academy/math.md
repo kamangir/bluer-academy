@@ -5,4 +5,4 @@ includes:
 - orthogonality.
 
 
-duration: 3 hours
+duration: 3.0 hours

@@ -22,7 +22,7 @@ class Topic:
             if requirement
         ]
         self.duration: int = duration
-        self.cost: Union[float, str] = cost
+        self.cost: Union[float, str] = cost if isinstance(cost, str) else float(cost)
 
     def filename(
         self,
@@ -70,7 +70,7 @@ class Topic:
             + (
                 [
                     "",
-                    f"duration: {self.duration} hours",
+                    f"duration: {self.duration:.1f} hours",
                 ]
                 if self.duration
                 else []
