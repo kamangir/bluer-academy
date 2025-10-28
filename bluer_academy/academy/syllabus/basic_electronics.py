@@ -12,4 +12,5 @@ topic = Topic(
         "wireless control",
     ],
     duration=6,
+    items={},
 )

@@ -12,4 +12,5 @@ topic = Topic(
     ],
     duration=3,
     requires="geospatial",
+    items={},
 )

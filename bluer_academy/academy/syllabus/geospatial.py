@@ -11,4 +11,5 @@ topic = Topic(
     ],
     duration=6,
     requires="python,bash,objects,cloud,plugins",
+    items={},
 )

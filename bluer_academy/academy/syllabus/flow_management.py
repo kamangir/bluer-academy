@@ -8,4 +8,5 @@ topic = Topic(
     ],
     duration=2,
     requires="linux,bash,python,cloud",
+    items={},
 )
