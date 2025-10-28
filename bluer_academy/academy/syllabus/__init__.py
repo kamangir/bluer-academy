@@ -14,6 +14,7 @@ from bluer_academy.academy.syllabus import (
     pypi,
     python,
     QGIS,
+    sbc,
     testing,
 )
 
@@ -35,6 +36,7 @@ syllabus = Syllabus(
             pypi,
             python,
             QGIS,
+            sbc,
             testing,
         ]
     ]
