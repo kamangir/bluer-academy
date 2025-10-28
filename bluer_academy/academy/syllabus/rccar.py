@@ -7,7 +7,8 @@ from bluer_academy.academy.syllabus.consts import bluer_ugv_tree, bluer_ugv_blob
 topic = Topic(
     "rccar",
     [
-        f"[remote control car]({bluer_ugv_tree}/docs/ravin)",
+        f"[basic remote control car]({bluer_ugv_tree}/docs/ravin/ravin3)",
+        f"[Arduino control car]({bluer_ugv_tree}/docs/ravin/ravin4) 🚧",
     ],
     duration=6,
     requires="documentation,basic-electronics",

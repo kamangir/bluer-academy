@@ -1,7 +1,8 @@
 # academy: syllabus: rccar
 
 includes:
-- [remote control car](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/ravin).
+- [basic remote control car](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/ravin/ravin3).
+- [Arduino control car](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/ravin/ravin4) 🚧.
 
 ---
 
