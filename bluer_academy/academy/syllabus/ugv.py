@@ -16,7 +16,7 @@ topic = Topic(
         f"[PCB prototyping]({bluer_ugv_tree}/docs/swallow/digital/design/shield.md)",
     ],
     duration=12,
-    requires="sbc,machine-vision",
+    requires="sbc,machine-vision,basic-electronics",
     items={
         assets_url(suffix="arzhang/VID-20250905-WA0014_1.gif"): bluer_ugv_root,
     },
