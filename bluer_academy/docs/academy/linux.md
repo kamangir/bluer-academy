@@ -1,7 +1,7 @@
 # academy: linux
 
 includes:
-- setting up Linux on your machine.
+- [setting up Linux on your machine](https://github.com/kamangir/bluer-ai).
 
 requires: [math](./math.md)
 

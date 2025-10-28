@@ -1,10 +1,13 @@
 from typing import List, Tuple
 import networkx as nx
 
-from bluer_objects.README.items import ImageItems
+from bluer_options.logger import shorten_text
+from bluer_objects import objects
+from bluer_flow.workflow import dot_file
 
 from bluer_academy.academy.classes.topic import Topic
 from bluer_academy.logger import logger
+from bluer_academy import fullname
 
 
 class Syllabus:
@@ -16,6 +19,23 @@ class Syllabus:
 
         assert self.expand_requirements()
 
+    def as_image(
+        self,
+        filename: str,
+    ) -> bool:
+        success, G = self.as_graph()
+        if not success:
+            return success
+
+        return dot_file.export_graph_as_image(
+            G,
+            filename,
+            layout="spring",
+            colormap=dot_file.status_color_map,
+            caption=fullname(),
+            add_legend=False,
+        )
+
     @property
     def as_markdown(self) -> Tuple[bool, List[str]]:
         success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
@@ -23,17 +43,24 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| capstone project? | duration (hours) | depends on: |"
+            "| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
             + "".join(
                 [
-                    f" [{topic_name}](./{topic_name}.md) |"
+                    " [{}](./{}.md) |".format(
+                        shorten_text(
+                            topic_name,
+                            max_length=6,
+                        ),
+                        topic_name,
+                    )
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
-            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 3)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 4)]),
         ] + [
-            "| {} | {} | [{}](./{}.md) |".format(
+            "| {} | {} | {} | [{}](./{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
+                "{:.1f}".format(self.topic(topic_name).duration),
                 "{:.1f}".format(self.duration_of(topic_name)),
                 topic_name,
                 topic_name,
@@ -64,6 +91,7 @@ class Syllabus:
 
         for topic in self.list_of_topics:
             G.add_node(topic.name)
+            G.nodes[topic.name]["status"] = "SUCCEEDED" if topic.items else ""
 
         for topic in self.list_of_topics:
             for requirement in topic.requirements:
