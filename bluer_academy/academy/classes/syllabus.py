@@ -19,8 +19,24 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "".join(["| " for _ in range(len(sorted_list_of_topic_names))]) + "|",
-            "".join(["|-" for _ in range(len(sorted_list_of_topic_names))]) + "|",
+            "| |"
+            + "".join(
+                [f" {topic_name} |" for topic_name in sorted_list_of_topic_names]
+            ),
+            "|".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 1)]),
+        ] + [
+            f"| {topic_name} |"
+            + "".join(
+                [
+                    " {} |".format(
+                        "ℹ️"
+                        if topic_name_ in self.topic(topic_name).requirements
+                        else ""
+                    )
+                    for topic_name_ in sorted_list_of_topic_names
+                ]
+            )
+            for topic_name in sorted_list_of_topic_names
         ]
 
         return success, table
@@ -75,3 +91,10 @@ class Syllabus:
             stack.sort()
 
         return True, visited
+
+    def topic(self, topic_name: str) -> Topic:
+        for topic in self.list_of_topics:
+            if topic.name == topic_name:
+                return topic
+
+        raise NameError(f"topic: {topic_name} not found")

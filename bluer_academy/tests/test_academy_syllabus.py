@@ -1,3 +1,4 @@
+import pytest
 import networkx as nx
 
 from bluer_academy.academy.syllabus import syllabus
@@ -18,3 +19,9 @@ def test_academy_syllabus():
     assert isinstance(list_of_topic_names, list)
     for topic in list_of_topic_names:
         assert isinstance(topic, str)
+
+    topic = syllabus.topic("linux")
+    assert topic.name == "linux"
+
+    with pytest.raises(NameError):
+        syllabus.topic("astronomy")
