@@ -22,6 +22,7 @@ from bluer_academy.academy.syllabus import (
     sbc,
     testing,
     ugv,
+    yolo,
 )
 
 syllabus = Syllabus(
@@ -50,6 +51,7 @@ syllabus = Syllabus(
             sbc,
             testing,
             ugv,
+            yolo,
         ]
     ]
 )

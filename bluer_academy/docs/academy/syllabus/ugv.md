@@ -11,6 +11,7 @@ includes:
 
 ⬅️ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [github](./github.md), [linux](./linux.md), [machine-vision](./machine-vision.md), [math](./math.md), [python](./python.md), [sbc](./sbc.md)
 
+➡️ required for: [yolo](./yolo.md)
 
 ⏳ duration (hours): 12.0 - including requirements: 57.0
 
