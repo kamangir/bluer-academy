@@ -4,8 +4,6 @@ title:::
 
 table:::
 
-📐: capstone project.
-
 duration:::
 
 cost:::
