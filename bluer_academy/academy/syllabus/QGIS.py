@@ -16,7 +16,11 @@ topic = Topic(
     requires="geospatial",
     items={
         assets_url(
-            "blue-geo/QGIS.png",
+            suffix,
         ): f"{bluer_geo_blob}/QGIS"
+        for suffix in [
+            "blue-geo/QGIS.png",
+            "blue-geo/QGIS-python-console.png",
+        ]
     },
 )
