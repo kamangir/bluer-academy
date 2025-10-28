@@ -5,3 +5,5 @@ title:::
 table:::
 
 duration:::
+
+cost:::

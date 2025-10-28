@@ -81,7 +81,7 @@ class Topic:
                     (
                         f"💰 cost: {self.cost:.2f} mT"
                         if isinstance(self.cost, float)
-                        else f"💰 needs {self.cost}"
+                        else f"💰 needs {self.cost}."
                     ),
                 ]
                 if self.cost
