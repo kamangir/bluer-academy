@@ -4,7 +4,7 @@ from bluer_academy.academy.syllabus import syllabus
 
 
 def test_academy_syllabus():
-    success, G = syllabus.graph()
+    success, G = syllabus.as_graph()
     assert success
     assert isinstance(G, nx.DiGraph)
 

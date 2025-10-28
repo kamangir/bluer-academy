@@ -12,7 +12,20 @@ class Syllabus:
     ):
         self.list_of_topics: List[Topic] = list_of_topics
 
-    def graph(self) -> Tuple[bool, nx.DiGraph]:
+    @property
+    def as_table(self) -> Tuple[bool, List[str]]:
+        success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
+        if not success:
+            return False, []
+
+        table: List[str] = [
+            "".join(["| " for _ in range(len(sorted_list_of_topic_names))]) + "|",
+            "".join(["|-" for _ in range(len(sorted_list_of_topic_names))]) + "|",
+        ]
+
+        return table
+
+    def as_graph(self) -> Tuple[bool, nx.DiGraph]:
         G = nx.DiGraph()
 
         for topic in self.list_of_topics:
@@ -35,8 +48,12 @@ class Syllabus:
         return True, G
 
     @property
+    def list_of_topic_names(self) -> List[str]:
+        return [topic.name for topic in self.list_of_topics]
+
+    @property
     def sorted_list_of_topic_names(self) -> Tuple[bool, List[str]]:
-        success, G = self.graph()
+        success, G = self.as_graph()
         if not success:
             return success, []
 
@@ -58,7 +75,3 @@ class Syllabus:
             stack.sort()
 
         return True, visited
-
-    @property
-    def list_of_topic_names(self) -> List[str]:
-        return [topic.name for topic in self.list_of_topics]
