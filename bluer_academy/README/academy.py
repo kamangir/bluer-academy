@@ -7,6 +7,9 @@ from bluer_academy.academy.syllabus import syllabus
 docs = [
     {
         "path": "../docs/academy",
+    },
+    {
+        "path": "../docs/academy/syllabus",
         "macros": {
             "table:::": syllabus.as_markdown[1],
             "duration:::": [
