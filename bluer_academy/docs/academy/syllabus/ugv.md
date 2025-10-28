@@ -9,3 +9,7 @@ includes:
 requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [github](./github.md), [linux](./linux.md), [machine-vision](./machine-vision.md), [math](./math.md), [python](./python.md), [sbc](./sbc.md)
 
 ⏳ duration: 12.0 hours
+
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets/raw/main/arzhang/VID-20250905-WA0014_1.gif?raw=true)](https://github.com/kamangir/bluer-ugv) |
