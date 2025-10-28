@@ -1,4 +1,4 @@
-from bluer_objects.README.items import ImageItems
+from bluer_objects.README.items import Items, ImageItems
 from bluer_objects import file
 
 from bluer_academy.academy.syllabus import syllabus
@@ -7,12 +7,16 @@ from bluer_academy.academy.syllabus import syllabus
 docs = [
     {
         "path": "../docs/academy",
-        "items": ImageItems(
-            {
-                list(topic.items.keys())[0]: "./syllabus/{}.md".format(topic.name)
+        "items": Items(
+            [
+                {
+                    "name": topic.name,
+                    "image": list(topic.items.keys())[0],
+                    "url": "./syllabus/{}.md".format(topic.name),
+                }
                 for topic in syllabus.list_of_topics
                 if topic.items
-            }
+            ]
         ),
         "cols": 5,
         "macros": {
