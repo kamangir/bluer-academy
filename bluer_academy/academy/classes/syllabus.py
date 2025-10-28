@@ -34,6 +34,7 @@ class Syllabus:
             colormap=dot_file.status_color_map,
             caption=fullname(),
             add_legend=False,
+            font_size=14,
         )
 
     @property
