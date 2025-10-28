@@ -57,10 +57,10 @@ class Topic:
         return (
             ["includes:"]
             + [f"- {item}." for item in self.agenda]
-            + [""]
+            + ["", "---", ""]
             + (
                 [
-                    "requires: {}".format(
+                    "⬅️ requires: {}".format(
                         ", ".join(
                             f"[{topic_name}](./{topic_name}.md)"
                             for topic_name in self.requirements
@@ -70,9 +70,10 @@ class Topic:
                 if self.requirements
                 else []
             )
+            + [""]
             + (
                 [
-                    "required for: {}".format(
+                    "➡️ required for: {}".format(
                         ", ".join(
                             f"[{topic_name}](./{topic_name}.md)"
                             for topic_name in self.required_for

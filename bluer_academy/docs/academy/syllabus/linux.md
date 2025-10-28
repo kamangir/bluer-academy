@@ -3,8 +3,11 @@
 includes:
 - [setting up Linux on your machine](https://github.com/kamangir/bluer-ai).
 
-requires: [math](./math.md)
-required for: [math](./math.md)
+---
+
+⬅️ requires: [math](./math.md)
+
+➡️ required for: [math](./math.md)
 
 ⏳ duration: 3.0 hours
 
