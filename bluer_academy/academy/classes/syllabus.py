@@ -32,7 +32,9 @@ class Syllabus:
         ] + [
             "| {} | [{}](./{}.md) |".format(
                 (
-                    "![image]({})".format(list(self.topic(topic_name).items.keys())[0])
+                    "![image]({}?raw=1)".format(
+                        list(self.topic(topic_name).items.keys())[0]
+                    )
                     if self.topic(topic_name).items
                     else ""
                 ),

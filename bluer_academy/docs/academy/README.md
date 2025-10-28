@@ -17,8 +17,8 @@
 |  | [plugins](./plugins.md) | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ |  |  |  |  |  |
 |  | [geospatial](./geospatial.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ |  |  |  |  |
 |  | [QGIS](./QGIS.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |
-| ![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png) | [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
-| ![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif) | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
+| ![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=1) | [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
+| ![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif?raw=1) | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
 
 ⏳ duration: 63.0 hours
 
