@@ -1,6 +1,8 @@
 from typing import List, Tuple
 import networkx as nx
 
+from bluer_objects.README.items import ImageItems
+
 from bluer_academy.academy.classes.topic import Topic
 from bluer_academy.logger import logger
 
@@ -32,9 +34,7 @@ class Syllabus:
         ] + [
             "| {} | [{}](./{}.md) |".format(
                 (
-                    "![image]({}?raw=1)".format(
-                        list(self.topic(topic_name).items.keys())[0]
-                    )
+                    ImageItems(self.topic(topic_name).items)[0]
                     if self.topic(topic_name).items
                     else ""
                 ),
