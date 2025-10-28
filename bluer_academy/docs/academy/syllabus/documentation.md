@@ -1,4 +1,4 @@
-# academy: documentation
+# academy: syllabus: documentation
 
 includes:
 - markdown.

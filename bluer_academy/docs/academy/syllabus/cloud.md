@@ -1,4 +1,4 @@
-# academy: cloud
+# academy: syllabus: cloud
 
 includes:
 - creating an account on [arvancloud](https://www.arvancloud.ir/fa).

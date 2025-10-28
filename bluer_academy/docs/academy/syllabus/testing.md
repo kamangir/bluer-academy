@@ -1,4 +1,4 @@
-# academy: testing
+# academy: syllabus: testing
 
 includes:
 - [pylint](https://github.com/kamangir/bluer-options/blob/main/bluer_options/.bash/pylint.sh).

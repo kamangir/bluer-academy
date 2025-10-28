@@ -1,4 +1,4 @@
-# academy: github
+# academy: syllabus: github
 
 includes:
 - setting up github.

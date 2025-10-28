@@ -1,4 +1,4 @@
-# academy: plugins
+# academy: syllabus: plugins
 
 includes:
 - [writing an AI plugin](https://github.com/kamangir/bluer-plugin).

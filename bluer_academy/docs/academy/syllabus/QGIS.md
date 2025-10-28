@@ -1,4 +1,4 @@
-# academy: QGIS
+# academy: syllabus: QGIS
 
 includes:
 - basic QGIS.

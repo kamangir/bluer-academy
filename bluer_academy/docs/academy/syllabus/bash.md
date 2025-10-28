@@ -1,4 +1,4 @@
-# academy: bash
+# academy: syllabus: bash
 
 includes:
 - basics of bash.

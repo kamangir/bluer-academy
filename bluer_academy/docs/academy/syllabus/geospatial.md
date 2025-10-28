@@ -1,4 +1,4 @@
-# academy: geospatial
+# academy: syllabus: geospatial
 
 includes:
 - [geo images](https://github.com/kamangir/bluer-geo).

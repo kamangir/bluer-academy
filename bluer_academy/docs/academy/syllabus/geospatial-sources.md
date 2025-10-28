@@ -1,4 +1,4 @@
-# academy: geospatial-sources
+# academy: syllabus: geospatial-sources
 
 includes:
 - [maxar open data](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/maxar_open_data): disaster management.

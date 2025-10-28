@@ -46,7 +46,7 @@ class Syllabus:
             "| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
             + "".join(
                 [
-                    " [{}](./{}.md) |".format(
+                    " [{}](./syllabus/{}.md) |".format(
                         shorten_text(
                             topic_name,
                             max_length=6,
@@ -58,7 +58,7 @@ class Syllabus:
             ),
             "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 4)]),
         ] + [
-            "| {} | {} | {} | [{}](./{}.md) |".format(
+            "| {} | {} | {} | [{}](./syllabus/{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
                 "{:.1f}".format(self.topic(topic_name).duration),
                 "{:.1f}".format(self.duration_of(topic_name)),

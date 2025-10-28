@@ -1,9 +1,7 @@
-# academy: sbc
+# academy: syllabus: pypi
 
 includes:
-- single board computers.
-- raspberry pi.
-- [terraforming](https://github.com/kamangir/bluer-sbc).
+- [publishing code on pypi](https://github.com/kamangir/bluer-ai/tree/main/bluer_ai/.abcli/plugins/pypi).
 
 requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 

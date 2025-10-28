@@ -1,4 +1,4 @@
-# academy: math
+# academy: syllabus: math
 
 includes:
 - [access, automation, analytics, AI](https://github.com/kamangir/giza).

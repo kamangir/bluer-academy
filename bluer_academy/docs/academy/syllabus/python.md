@@ -1,4 +1,4 @@
-# academy: python
+# academy: syllabus: python
 
 includes:
 - setting up python.

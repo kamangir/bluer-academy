@@ -1,4 +1,4 @@
-# academy: linux
+# academy: syllabus: linux
 
 includes:
 - [setting up Linux on your machine](https://github.com/kamangir/bluer-ai).

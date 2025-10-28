@@ -1,4 +1,4 @@
-# academy: objects
+# academy: syllabus: objects
 
 includes:
 - [what is object management?](https://github.com/kamangir/bluer-objects).

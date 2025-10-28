@@ -32,7 +32,7 @@ class Topic:
     ) -> str:
         reference = file.path(__file__)
         filename = file.absolute(
-            f"../../docs/academy/{self.name}.md",
+            f"../../docs/academy/syllabus/{self.name}.md",
             reference,
         )
 
@@ -40,7 +40,7 @@ class Topic:
             return filename
 
         template_filename = file.absolute(
-            "../../docs/academy/template-template.md",
+            "../../docs/academy/syllabus/template-template.md",
             reference,
         )
         assert file.copy(
