@@ -1,3 +1,3 @@
 title:::
 
-bluer-academy offers 
+bluer-academy offers ~30 topics, 

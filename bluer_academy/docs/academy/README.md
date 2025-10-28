@@ -35,7 +35,9 @@
 | 27 | 📐 | 6.0 | 78.0 | [geospatial-semseg](./syllabus/geospatial-semseg.md) |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ |  |  | ℹ️ | ℹ️ |  |  |  | ℹ️ | ℹ️ |  |  | ℹ️ |  |  | ℹ️ |  | ℹ️ |  |  |
 | 28 | 📐 | 6.0 | 80.0 | [geospatial-timeseries](./syllabus/geospatial-timeseries.md) |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ |  |  |  | ℹ️ | ℹ️ |  |  | ℹ️ |  |  | ℹ️ |  | ℹ️ |  |  |
 
-⏳ total duration: 128.0 hours
+⏳ total duration (hours): 128.0
+
+28 topic(s), duration (hours): 0.0 ... 12.0
 
 
 <details>

@@ -104,9 +104,20 @@ class Syllabus:
 
         return True, G
 
-    @property
-    def duration(self) -> float:
-        return sum(topic.duration for topic in self.list_of_topics)
+    def duration(
+        self,
+        what: str = "total",
+    ) -> float:
+        if what == "max":
+            return max(topic.duration for topic in self.list_of_topics)
+
+        if what == "min":
+            return min(topic.duration for topic in self.list_of_topics)
+
+        if what == "total":
+            return sum(topic.duration for topic in self.list_of_topics)
+
+        raise NameError(f"{self.__class__.__name__}.duration_of({what}) not found.")
 
     def duration_of(self, topic_name: str) -> float:
         return self.topic(topic_name).duration + sum(

@@ -22,7 +22,15 @@ docs = [
         "macros": {
             "table:::": syllabus.as_markdown[1],
             "duration:::": [
-                f"⏳ total duration: {syllabus.duration:.1f} hours",
+                "⏳ total duration (hours): {:.1f}".format(
+                    syllabus.duration("total"),
+                ),
+                "",
+                "{} topic(s), duration (hours): {:.1f} ... {:.1f}".format(
+                    len(syllabus.list_of_topics),
+                    syllabus.duration("min"),
+                    syllabus.duration("max"),
+                ),
             ],
         },
     },
