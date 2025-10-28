@@ -12,6 +12,5 @@ topic = Topic(
         "matplotlib",
     ],
     duration=12,
-    cost=0,
     requires="linux,github",
 )

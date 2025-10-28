@@ -6,6 +6,5 @@ topic = Topic(
         "template",
     ],
     duration=0,
-    cost=0,
     requires="template,template",
 )

@@ -9,6 +9,5 @@ topic = Topic(
         "pull requests and code review",
     ],
     duration=3,
-    cost=0,
     requires="linux",
 )

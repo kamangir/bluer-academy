@@ -6,6 +6,5 @@ topic = Topic(
         "writing an AI plugin",
     ],
     duration=3,
-    cost=0,
     requires="math,python,bash,github,documentation,testing",
 )

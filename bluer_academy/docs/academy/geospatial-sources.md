@@ -9,6 +9,8 @@ includes:
 
 requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
+⏳ duration: 6.0 hours
+
 |   |
 | --- |
 | [![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/catalog/maxar_open_data) |

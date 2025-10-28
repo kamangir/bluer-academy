@@ -9,6 +9,5 @@ topic = Topic(
         "command substitution",
     ],
     duration=3,
-    cost=0,
     requires="linux,python,github",
 )

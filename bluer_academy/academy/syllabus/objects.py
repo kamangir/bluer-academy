@@ -9,6 +9,5 @@ topic = Topic(
         "a use case",
     ],
     duration=3,
-    cost=0,
     requires="cloud,python,bash",
 )

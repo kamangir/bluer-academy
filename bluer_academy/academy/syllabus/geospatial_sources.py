@@ -12,8 +12,7 @@ topic = Topic(
         f"[global power plant]({bluer_geo_blob}/objects/md/global_power_plant_database.md): open source database of power plants around the world",
         f"[ukraine damage map]({bluer_geo_blob}/catalog/ukraine_timemap)",
     ],
-    duration=0,
-    cost=0,
+    duration=6,
     requires="geospatial,QGIS",
     items={
         assets_url(

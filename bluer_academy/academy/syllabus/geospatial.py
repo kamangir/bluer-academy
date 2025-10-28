@@ -9,6 +9,5 @@ topic = Topic(
         "[datacube](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/datacube)",
     ],
     duration=6,
-    cost=0,
     requires="python,bash,objects,cloud,plugins",
 )

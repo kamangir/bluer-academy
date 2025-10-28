@@ -6,6 +6,5 @@ topic = Topic(
         "publishing code on pypi",
     ],
     duration=3,
-    cost=0,
     requires="linux,python,github,bash",
 )
