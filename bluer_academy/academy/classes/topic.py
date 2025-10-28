@@ -1,4 +1,4 @@
-from typing import List, Union
+from typing import List, Union, Dict
 
 from bluer_objects import file
 
@@ -11,7 +11,7 @@ class Topic:
         duration: float,
         cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
-        items: List[str] = [],
+        items: Dict[str, str] = {},
     ):
         self.name: str = name
         self.agenda: List[str] = agenda

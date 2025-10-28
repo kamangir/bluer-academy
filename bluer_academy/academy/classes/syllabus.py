@@ -30,7 +30,15 @@ class Syllabus:
             ),
             "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 2)]),
         ] + [
-            f"| | [{topic_name}](./{topic_name}.md) |"
+            "| {} | [{}](./{}.md) |".format(
+                (
+                    "![image]({})".format(list(self.topic(topic_name).items.keys())[0])
+                    if self.topic(topic_name).items
+                    else ""
+                ),
+                topic_name,
+                topic_name,
+            )
             + "".join(
                 [
                     " {} |".format(

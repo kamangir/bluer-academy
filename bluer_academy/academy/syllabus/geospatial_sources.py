@@ -1,4 +1,3 @@
-from bluer_objects.README.items import ImageItems
 from bluer_objects.README.consts import assets_url
 
 from bluer_academy.academy.syllabus.consts import bluer_geo_blob, bluer_geo_tree
@@ -16,11 +15,9 @@ topic = Topic(
     duration=0,
     cost=0,
     requires="geospatial,QGIS",
-    items=ImageItems(
-        {
-            assets_url(
-                suffix="blue-geo/Maxar-Open-Datacube.png"
-            ): f"{bluer_geo_tree}/catalog/maxar_open_data"
-        }
-    ),
+    items={
+        assets_url(
+            suffix="blue-geo/Maxar-Open-Datacube.png"
+        ): f"{bluer_geo_tree}/catalog/maxar_open_data"
+    },
 )

@@ -1,3 +1,5 @@
+from bluer_objects.README.items import ImageItems
+
 from bluer_academy.academy.syllabus import syllabus
 
 
@@ -14,7 +16,7 @@ docs = [
 ] + [
     {
         "path": topic.filename(create=True),
-        "items": topic.items,
+        "items": ImageItems(topic.items),
         "macros": {
             "content:::": topic.as_markdown,
         },
