@@ -10,5 +10,5 @@ topic = Topic(
     ],
     duration=3,
     cost=0,
-    requires="linux,python",
+    requires="linux,python,github",
 )
