@@ -77,13 +77,7 @@ class Syllabus:
 
     @property
     def duration(self) -> float:
-        return sum(
-            [
-                topic.duration
-                for topic in self.list_of_topics
-                if isinstance(topic.duration, float)
-            ]
-        )
+        return sum(topic.duration for topic in self.list_of_topics)
 
     def duration_of(self, topic_name: str) -> float:
         return self.topic(topic_name).duration + sum(
