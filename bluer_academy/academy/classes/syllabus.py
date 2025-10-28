@@ -21,11 +21,14 @@ class Syllabus:
         table: List[str] = [
             "| |"
             + "".join(
-                [f" {topic_name} |" for topic_name in sorted_list_of_topic_names]
+                [
+                    f" [{topic_name}](./{topic_name}.md) |"
+                    for topic_name in sorted_list_of_topic_names
+                ]
             ),
             "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 1)]),
         ] + [
-            f"| {topic_name} |"
+            f"| [{topic_name}](./{topic_name}.md) |"
             + "".join(
                 [
                     " {} |".format(
