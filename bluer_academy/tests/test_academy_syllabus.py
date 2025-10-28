@@ -34,3 +34,7 @@ def test_academy_syllabus():
         assert isinstance(line, str)
 
     syllabus.expand_requirements()
+
+    duration = syllabus.duration_of("geospatial")
+    assert isinstance(duration, float)
+    assert duration > 0.0

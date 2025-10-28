@@ -9,7 +9,7 @@ docs = [
         "macros": {
             "table:::": syllabus.as_markdown[1],
             "duration:::": [
-                f"⏳ duration: {syllabus.duration} hours",
+                f"⏳ duration: {syllabus.duration:.1f} hours",
             ],
         },
     },

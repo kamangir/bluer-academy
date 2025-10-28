@@ -23,7 +23,7 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| capstone project | duration | depends on: |"
+            "| capstone project? | duration (hours) | depends on: |"
             + "".join(
                 [
                     f" [{topic_name}](./{topic_name}.md) |"
@@ -34,7 +34,7 @@ class Syllabus:
         ] + [
             "| {} | {} | [{}](./{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
-                "🔥",
+                "{:.1f}".format(self.duration_of(topic_name)),
                 topic_name,
                 topic_name,
             )
@@ -82,6 +82,14 @@ class Syllabus:
                 topic.duration
                 for topic in self.list_of_topics
                 if isinstance(topic.duration, float)
+            ]
+        )
+
+    def duration_of(self, topic_name: str) -> float:
+        return self.topic(topic_name).duration + sum(
+            [
+                self.topic(topic_name_).duration
+                for topic_name_ in self.topic(topic_name).requirements
             ]
         )
 
