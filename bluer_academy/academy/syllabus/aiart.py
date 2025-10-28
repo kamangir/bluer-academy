@@ -6,7 +6,7 @@ topic = Topic(
         "[image generation with OpenAI](https://github.com/kamangir/openai-commands)",
         "[image generation with Stable Fusion](https://github.com/kamangir/blue-stability)",
     ],
-    duration=0,
+    duration=3,
     requires="python,bash,cloud",
     items={
         "https://github.com/kamangir/openai-commands/raw/main/assets/DALL-E.png?raw=true": "https://github.com/kamangir/openai-commands",

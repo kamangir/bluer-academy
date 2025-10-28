@@ -26,7 +26,7 @@ docs = [
                     syllabus.duration("total"),
                 ),
                 "",
-                "{} topic(s), duration (hours): {:.1f} ... {:.1f}".format(
+                "⏳ {} topic(s), duration (hours): {:.1f} ... {:.1f}".format(
                     len(syllabus.list_of_topics),
                     syllabus.duration("min"),
                     syllabus.duration("max"),

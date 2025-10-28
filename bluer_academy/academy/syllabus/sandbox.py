@@ -5,6 +5,6 @@ topic = Topic(
     [
         "[sandboxing (developing algo) in python + bash](https://github.com/kamangir/bluer-sandbox)",
     ],
-    duration=0,
+    duration=3,
     requires="python,bash,github",
 )
