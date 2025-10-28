@@ -7,7 +7,7 @@ includes:
 - [global power plant](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/objects/md/global_power_plant_database.md): open source database of power plants around the world.
 - [ukraine damage map](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/ukraine_timemap).
 
-requires: [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md)
+requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
 |   |
 | --- |

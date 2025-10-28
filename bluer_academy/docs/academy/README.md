@@ -14,11 +14,11 @@
 | [objects](./objects.md) | ℹ️ |  | ℹ️ |  | ℹ️ | ℹ️ |  |  |  |  |  |  |  |  |  |
 | [pypi](./pypi.md) | ℹ️ |  |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |  |  |  |  |  |  |
 | [testing](./testing.md) | ℹ️ |  |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |  |  |  |  |  |  |
-| [plugins](./plugins.md) | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |  |  |  |  |  |  |
-| [geospatial](./geospatial.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ |  |  |  |  |
-| [QGIS](./QGIS.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ | ℹ️ |  |  |  |
-| [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ | ℹ️ |  |  |  |
-| [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ | ℹ️ |  | ℹ️ |  |
+| [plugins](./plugins.md) | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ |  |  |  |  |  |
+| [geospatial](./geospatial.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ |  |  |  |  |
+| [QGIS](./QGIS.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |
+| [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
+| [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
 
 ⏳ duration: 63.0 hours
 

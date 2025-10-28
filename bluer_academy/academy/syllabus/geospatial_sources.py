@@ -15,7 +15,7 @@ topic = Topic(
     ],
     duration=0,
     cost=0,
-    requires="geospatial",
+    requires="geospatial,QGIS",
     items=ImageItems(
         {
             assets_url(

@@ -7,5 +7,5 @@ topic = Topic(
     ],
     duration=3,
     cost=0,
-    requires="math,python,bash,github,documentation",
+    requires="math,python,bash,github,documentation,testing",
 )
