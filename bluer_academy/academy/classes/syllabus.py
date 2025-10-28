@@ -33,11 +33,7 @@ class Syllabus:
             "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 2)]),
         ] + [
             "| {} | [{}](./{}.md) |".format(
-                (
-                    ImageItems(self.topic(topic_name).items)[0]
-                    if self.topic(topic_name).items
-                    else ""
-                ),
+                "📐" if self.topic(topic_name).items else "",
                 topic_name,
                 topic_name,
             )

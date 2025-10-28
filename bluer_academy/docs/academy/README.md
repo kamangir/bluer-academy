@@ -17,8 +17,10 @@
 |  | [plugins](./plugins.md) | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ |  |  |  |  |  |
 |  | [geospatial](./geospatial.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ |  |  |  |  |
 |  | [QGIS](./QGIS.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |
-| [![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/catalog/maxar_open_data) | [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
-| [![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch) | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
+| 📐 | [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
+| 📐 | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
+
+📐: capstone project.
 
 ⏳ duration: 63.0 hours
 
