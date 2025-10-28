@@ -2,7 +2,7 @@
 
 includes:
 - markdown.
-- bluer README.
+- [bluer README](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README).
 - documentation in github.
 - a use case.
 
