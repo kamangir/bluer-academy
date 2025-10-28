@@ -130,6 +130,10 @@ class Syllabus:
                     list(set(topic_.requirements + topic.requirements))
                 )
 
+        for topic_name in sorted_list_of_topic_names:
+            topic = self.topic(topic_name)
+            topic.required_for = G.successors(topic_name)
+
         return True
 
     @property

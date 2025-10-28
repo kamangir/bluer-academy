@@ -9,6 +9,7 @@ includes:
 - wireless control.
 - ultrasonic sensors.
 
+required for: 
 
 ⏳ duration: 3.0 hours
 

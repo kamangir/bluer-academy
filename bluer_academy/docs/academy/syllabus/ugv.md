@@ -7,6 +7,7 @@ includes:
 - [PCB prototyping](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow/digital/design/shield.md).
 
 requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [github](./github.md), [linux](./linux.md), [machine-vision](./machine-vision.md), [math](./math.md), [python](./python.md), [sbc](./sbc.md)
+required for: [sbc](./sbc.md), [machine-vision](./machine-vision.md), [basic-electronics](./basic-electronics.md)
 
 ⏳ duration: 12.0 hours
 
