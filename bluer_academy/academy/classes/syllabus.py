@@ -23,21 +23,19 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| capstone project? | duration (hours) | depends on: |"
+            "| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
             + "".join(
                 [
                     f" [{topic_name}](./{topic_name}.md) |"
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
-            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 3)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 4)]),
         ] + [
-            "| {} | {} | [{}](./{}.md) |".format(
+            "| {} | {} | {} | [{}](./{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
-                "{:.1f} [{:.1f}]".format(
-                    self.topic(topic_name).duration,
-                    self.duration_of(topic_name),
-                ),
+                "{:.1f}".format(self.topic(topic_name).duration),
+                "{:.1f}".format(self.duration_of(topic_name)),
                 topic_name,
                 topic_name,
             )
