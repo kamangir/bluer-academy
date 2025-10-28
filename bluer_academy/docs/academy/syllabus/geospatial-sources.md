@@ -11,6 +11,7 @@ includes:
 
 ⬅️ requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
+➡️ required for: [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration: 6.0 hours
 

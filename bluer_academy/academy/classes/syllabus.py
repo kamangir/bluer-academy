@@ -133,9 +133,9 @@ class Syllabus:
         for topic_name in sorted_list_of_topic_names:
             topic = self.topic(topic_name)
             topic.required_for = [
-                topic_name
-                for topic_name in sorted_list_of_topic_names
-                if topic_name in self.topic(topic_name).requirements
+                topic_name_
+                for topic_name_ in sorted_list_of_topic_names
+                if topic_name in self.topic(topic_name_).requirements
             ]
 
         return True
