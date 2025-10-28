@@ -29,4 +29,18 @@
 
 ⏳ total duration: 105.0 hours
 
+
+<details>
+<summary>graph</summary>
+
 ![image](../../assets/syllabus.png)
+
+</details>
+
+
+## 📐 capstone projects
+
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=true)](./syllabus/geospatial-sources.md) | [![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif?raw=true)](./syllabus/geospatial-timeseries.md) | [![image](https://github.com/kamangir/assets2/raw/main/ravin/20250723_095155~2_1.gif?raw=true)](./syllabus/rccar.md) |
+| [![image](https://github.com/kamangir/assets2/raw/main/arzhang/VID-20250905-WA0014_1.gif?raw=true)](./syllabus/ugv.md) |  |  |

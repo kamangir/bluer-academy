@@ -6,7 +6,11 @@ includes:
 - [stac](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog).
 - [datacube](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/datacube).
 
-requires: [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
+---
+
+⬅️ requires: [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
+
+➡️ required for: [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration: 6.0 hours
 

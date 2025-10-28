@@ -5,7 +5,11 @@ includes:
 - using cloud storage.
 - creating cloud instances.
 
-requires: [linux](./linux.md), [math](./math.md)
+---
+
+⬅️ requires: [linux](./linux.md), [math](./math.md)
+
+➡️ required for: [objects](./objects.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration: 6.0 hours
 

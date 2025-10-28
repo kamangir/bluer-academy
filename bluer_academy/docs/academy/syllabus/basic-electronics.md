@@ -9,6 +9,10 @@ includes:
 - wireless control.
 - ultrasonic sensors.
 
+---
+
+
+➡️ required for: [rccar](./rccar.md), [ugv](./ugv.md)
 
 ⏳ duration: 3.0 hours
 

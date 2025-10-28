@@ -18,6 +18,9 @@ topic = Topic(
     duration=12,
     requires="sbc,machine-vision,basic-electronics",
     items={
-        assets_url(suffix="arzhang/VID-20250905-WA0014_1.gif"): bluer_ugv_root,
+        assets_url(
+            suffix="arzhang/VID-20250905-WA0014_1.gif",
+            volume=2,
+        ): bluer_ugv_root,
     },
 )

@@ -8,4 +8,10 @@ table:::
 
 duration:::
 
+details:::graph
 ![image](../../assets/syllabus.png)
+details:::
+
+## 📐 capstone projects
+
+items:::

@@ -5,7 +5,11 @@ includes:
 - raspberry pi.
 - [terraforming](https://github.com/kamangir/bluer-sbc).
 
-requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
+---
+
+⬅️ requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
+
+➡️ required for: [ugv](./ugv.md)
 
 ⏳ duration: 3.0 hours
 
