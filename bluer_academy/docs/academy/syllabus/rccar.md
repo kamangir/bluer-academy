@@ -9,7 +9,7 @@ includes:
 
 ➡️ required for: [rccar_arduino](./rccar_arduino.md)
 
-⏳ duration (hours): 6.0 - including requirements: 39.0
+⏳ duration (hours): 3.0 - including requirements: 36.0
 
 |   |
 | --- |

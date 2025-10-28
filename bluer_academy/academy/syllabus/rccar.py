@@ -8,7 +8,7 @@ topic = Topic(
     [
         f"[basic remote control car]({bluer_ugv_tree}/docs/ravin/ravin3)",
     ],
-    duration=6,
+    duration=3,
     requires="documentation,basic-electronics",
     items={
         "{}/20250723_095155~2_1.gif".format(

@@ -8,7 +8,7 @@ includes:
 ⬅️ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [documentation](./documentation.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md), [rccar](./rccar.md)
 
 
-⏳ duration (hours): 6.0 - including requirements: 45.0
+⏳ duration (hours): 6.0 - including requirements: 42.0
 
 |   |
 | --- |
