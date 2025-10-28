@@ -19,7 +19,7 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| |"
+            "| depends on -> |"
             + "".join(
                 [
                     f" [{topic_name}](./{topic_name}.md) |"

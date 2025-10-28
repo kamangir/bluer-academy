@@ -2,7 +2,7 @@
 
 📐 an academy for practical AI in Iran.
 
-| | [linux](./linux.md) | [math](./math.md) | [cloud](./cloud.md) | [github](./github.md) | [python](./python.md) | [bash](./bash.md) | [documentation](./documentation.md) | [objects](./objects.md) | [plugins](./plugins.md) | [pypi](./pypi.md) | [testing](./testing.md) |
+| depends on -> | [linux](./linux.md) | [math](./math.md) | [cloud](./cloud.md) | [github](./github.md) | [python](./python.md) | [bash](./bash.md) | [documentation](./documentation.md) | [objects](./objects.md) | [plugins](./plugins.md) | [pypi](./pypi.md) | [testing](./testing.md) |
 |-|-|-|-|-|-|-|-|-|-|-|-|
 | [linux](./linux.md) |  |  |  |  |  |  |  |  |  |  |  |
 | [math](./math.md) |  |  |  |  |  |  |  |  |  |  |  |
