@@ -34,7 +34,10 @@ class Syllabus:
         ] + [
             "| {} | {} | [{}](./{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
-                "{:.1f}".format(self.duration_of(topic_name)),
+                "{:.1f} [{:.1f}]".format(
+                    self.topic(topic_name).duration,
+                    self.duration_of(topic_name),
+                ),
                 topic_name,
                 topic_name,
             )
