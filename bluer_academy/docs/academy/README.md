@@ -2,7 +2,7 @@
 
 📐 an academy for practical AI in Iran.
 
-| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [math](./math.md) | [linux](./linux.md) | [cloud](./cloud.md) | [github](./github.md) | [python](./python.md) | [bash](./bash.md) | [documentation](./documentation.md) | [objects](./objects.md) | [pypi](./pypi.md) | [testing](./testing.md) | [plugins](./plugins.md) | [geospatial](./geospatial.md) | [QGIS](./QGIS.md) | [geospatial-sources](./geospatial-sources.md) | [geospatial-timeseries](./geospatial-timeseries.md) |
+| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [math](./math.md) | [linux](./linux.md) | [cloud](./cloud.md) | [github](./github.md) | [python](./python.md) | [bash](./bash.md) | [docume...](./documentation.md) | [object...](./objects.md) | [pypi](./pypi.md) | [testin...](./testing.md) | [plugin...](./plugins.md) | [geospa...](./geospatial.md) | [QGIS](./QGIS.md) | [geospa...](./geospatial-sources.md) | [geospa...](./geospatial-timeseries.md) |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |  | 3.0 | 3.0 | [math](./math.md) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |  | 3.0 | 6.0 | [linux](./linux.md) | ℹ️ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |

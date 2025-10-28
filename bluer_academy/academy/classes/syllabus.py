@@ -1,7 +1,7 @@
 from typing import List, Tuple
 import networkx as nx
 
-from bluer_objects.README.items import ImageItems
+from bluer_options.logger import shorten_text
 
 from bluer_academy.academy.classes.topic import Topic
 from bluer_academy.logger import logger
@@ -26,7 +26,13 @@ class Syllabus:
             "| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
             + "".join(
                 [
-                    f" [{topic_name}](./{topic_name}.md) |"
+                    " [{}](./{}.md) |".format(
+                        shorten_text(
+                            topic_name,
+                            max_length=6,
+                        ),
+                        topic_name,
+                    )
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
