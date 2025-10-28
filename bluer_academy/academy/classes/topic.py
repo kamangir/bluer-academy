@@ -47,7 +47,10 @@ class Topic:
 
     @property
     def as_markdown(self) -> List[str]:
-        return ["🔥"] + (
+        return [
+            "🔥",
+            "",
+        ] + (
             [
                 "requires: {}".format(
                     ", ".join(
