@@ -7,4 +7,5 @@ topic = Topic(
     ],
     duration=3,
     cost="a working mac, ubuntu (preferred) or windows machine",
+    requires="math",
 )

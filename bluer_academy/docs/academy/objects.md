@@ -6,6 +6,6 @@ includes:
 - objects in bash.
 - a use case.
 
-requires: [bash](./bash.md), [cloud](./cloud.md), [linux](./linux.md), [python](./python.md)
+requires: [bash](./bash.md), [cloud](./cloud.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
 ⏳ duration: 3.0 hours

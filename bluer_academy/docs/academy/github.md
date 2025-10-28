@@ -6,6 +6,6 @@ includes:
 - git workflows.
 - pull requests and code review.
 
-requires: [linux](./linux.md)
+requires: [linux](./linux.md), [math](./math.md)
 
 ⏳ duration: 3.0 hours

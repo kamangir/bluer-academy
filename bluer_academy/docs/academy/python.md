@@ -9,6 +9,6 @@ includes:
 - pandas.
 - matplotlib.
 
-requires: [linux](./linux.md)
+requires: [linux](./linux.md), [math](./math.md)
 
 ⏳ duration: 12.0 hours
