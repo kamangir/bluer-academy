@@ -23,7 +23,7 @@ class Syllabus:
             + "".join(
                 [f" {topic_name} |" for topic_name in sorted_list_of_topic_names]
             ),
-            "|".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 1)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 1)]),
         ] + [
             f"| {topic_name} |"
             + "".join(
@@ -90,7 +90,7 @@ class Syllabus:
                     stack.append(neighbor)
             stack.sort()
 
-        return True, visited
+        return True, list(reversed(visited))
 
     def topic(self, topic_name: str) -> Topic:
         for topic in self.list_of_topics:
