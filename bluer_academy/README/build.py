@@ -5,20 +5,8 @@ from bluer_objects import file, README
 
 from bluer_academy import NAME, VERSION, ICON, REPO_NAME
 from bluer_academy.help.functions import help_functions
-
-items = README.Items(
-    [
-        {
-            "name": f"feature {index}",
-            "marquee": "https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true",
-            "description": f"description of feature {index} ...",
-            "url": "./bluer_academy/docs/feature_{}".format(
-                index if index == 1 else f"{index}.md"
-            ),
-        }
-        for index in range(1, 4)
-    ]
-)
+from bluer_academy.README.items import items
+from bluer_academy.README import ai4k
 
 
 def build():
@@ -37,7 +25,13 @@ def build():
             ),
         )
         for readme in [
-            {"path": "..", "items": items},
-            {"path": "./docs"},
+            {
+                "path": "../..",
+                "items": items,
+            },
+            {
+                "path": "../docs",
+            },
         ]
+        + ai4k.docs
     )

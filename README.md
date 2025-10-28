@@ -6,13 +6,13 @@
 pip install bluer-academy
 ```
 
-|   |   |   |
-| --- | --- | --- |
-| [`feature 1`](./bluer_academy/docs/feature_1) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_academy/docs/feature_1) description of feature 1 ... | [`feature 2`](./bluer_academy/docs/feature_2.md) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_academy/docs/feature_2.md) description of feature 2 ... | [`feature 3`](./bluer_academy/docs/feature_3.md) [![image](https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true)](./bluer_academy/docs/feature_3.md) description of feature 3 ... |
+|   |   |
+| --- | --- |
+| [`@academy`](./bluer_academy/docs/academy) [![image](https://github.com/kamangir/assets2/raw/main/academy/concepts/06.png?raw=true)](./bluer_academy/docs/academy) an academy for practical AI in Iran. | [`ai4k`](./bluer_academy/docs/ai4k) [![image](https://github.com/kamangir/assets2/raw/main/ai4k/20250604_154200.jpg?raw=true)](./bluer_academy/docs/ai4k) ai for kids. |
 
 ---
 
 
 [![pylint](https://github.com/kamangir/bluer-academy/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-academy/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-academy/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-academy.svg)](https://pypi.org/project/bluer-academy/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-academy)](https://pypistats.org/packages/bluer-academy)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 📐 [`bluer_academy-5.4.1`](https://github.com/kamangir/bluer-academy).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 📐 [`bluer_academy-5.7.1`](https://github.com/kamangir/bluer-academy).

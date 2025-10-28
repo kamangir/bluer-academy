@@ -1,6 +1,7 @@
 from blueness.argparse.generic import main
 
-from bluer_academy import NAME, VERSION, DESCRIPTION, ICON, README
+from bluer_academy import NAME, VERSION, DESCRIPTION, ICON
+from bluer_academy.README.build import build
 from bluer_academy.logger import logger
 
 main(
@@ -10,8 +11,7 @@ main(
     VERSION=VERSION,
     main_filename=__file__,
     tasks={
-        "build_README": lambda _: README.build(),
+        "build_README": lambda _: build(),
     },
     logger=logger,
 )
-
