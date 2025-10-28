@@ -4,13 +4,16 @@ from bluer_academy.academy.syllabus import (
     cloud,
     documentation,
     geospatial,
+    geospatial_sources,
+    geospatial_timeseries,
     github,
     linux,
-    objects,
     math,
+    objects,
     plugins,
     pypi,
     python,
+    QGIS,
     testing,
 )
 
@@ -22,6 +25,8 @@ syllabus = Syllabus(
             cloud,
             documentation,
             geospatial,
+            geospatial_sources,
+            geospatial_timeseries,
             github,
             linux,
             objects,
@@ -29,6 +34,7 @@ syllabus = Syllabus(
             plugins,
             pypi,
             python,
+            QGIS,
             testing,
         ]
     ]

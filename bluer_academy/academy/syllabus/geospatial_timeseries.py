@@ -11,18 +11,16 @@ topic = Topic(
     duration=6,
     requires="geospatial",
     items=ImageItems(
-        [
-            {
-                assets_url(
-                    suffix="{object_name}/{object_name}.gif".format(
-                        object_name=object_name
-                    ),
-                )
-            }
+        {
+            assets_url(
+                suffix="{object_name}/{object_name}.gif".format(
+                    object_name=object_name
+                ),
+            ): "https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch"
             for object_name in [
                 "geo-watch-2025-05-23-2ck64x",
                 "geo-watch-diff-2025-05-23-2j8p1f",
             ]
-        ]
+        }
     ),
 )

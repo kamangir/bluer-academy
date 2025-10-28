@@ -1,11 +1,14 @@
 from bluer_academy.academy.classes.topic import Topic
 
 topic = Topic(
-    "template",
+    "QGIS",
     [
-        "template",
+        "basic QGIS",
+        "styling in QGIS",
+        "templates in QGIS",
+        "generating styled QGIS projects with algo",
+        "@QGIS",
     ],
-    duration=0,
-    cost=0,
-    requires="template,template",
+    duration=3,
+    requires="geospatial",
 )
