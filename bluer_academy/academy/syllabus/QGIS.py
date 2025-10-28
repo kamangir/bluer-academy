@@ -1,3 +1,4 @@
+from bluer_academy.academy.syllabus.consts import bluer_geo_blob
 from bluer_academy.academy.classes.topic import Topic
 
 topic = Topic(
@@ -7,7 +8,7 @@ topic = Topic(
         "styling in QGIS",
         "templates in QGIS",
         "generating styled QGIS projects with algo",
-        "[@QGIS](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/QGIS/README.md)",
+        f"[@QGIS]({bluer_geo_blob}/QGIS)",
     ],
     duration=3,
     requires="geospatial",

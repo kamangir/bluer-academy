@@ -81,10 +81,8 @@ class Syllabus:
 
     def duration_of(self, topic_name: str) -> float:
         return self.topic(topic_name).duration + sum(
-            [
-                self.topic(topic_name_).duration
-                for topic_name_ in self.topic(topic_name).requirements
-            ]
+            self.topic(topic_name_).duration
+            for topic_name_ in self.topic(topic_name).requirements
         )
 
     def expand_requirements(self) -> bool:
