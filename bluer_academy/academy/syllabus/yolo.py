@@ -18,4 +18,5 @@ topic = Topic(
             )
         ): f"{bluer_ugv_blob}/docs/arzhang/validation/village-3.md"
     },
+    capstone=True,
 )

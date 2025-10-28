@@ -20,4 +20,5 @@ topic = Topic(
         ]
     },
     cols=2,
+    capstone=True,
 )

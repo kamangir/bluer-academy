@@ -13,6 +13,7 @@ class Topic:
         requires: Union[str, List[str]] = "",
         items: Dict[str, str] = {},
         cols: int = 3,
+        capstone: bool = False,
     ):
         self.name: str = name
         self.agenda: List[str] = agenda
@@ -27,6 +28,7 @@ class Topic:
         ]
         self.items = items
         self.cols = cols
+        self.capstone = capstone
 
         # expanded
         self.required_for: List[str] = []

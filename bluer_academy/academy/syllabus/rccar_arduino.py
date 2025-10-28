@@ -18,4 +18,5 @@ topic = Topic(
             )
         ): f"{bluer_ugv_blob}/docs/ravin/ravin4",
     },
+    capstone=True,
 )
