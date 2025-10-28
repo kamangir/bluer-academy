@@ -6,6 +6,12 @@ topic = Topic(
         "setting up python",
         "cli's and imports",
         "jupyter notebooks",
+        "numpy",
+        "opencv",
+        "pandas",
+        "matplotlib",
     ],
+    duration=12,
+    cost=0,
     requires="linux",
 )

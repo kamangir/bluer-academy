@@ -6,3 +6,5 @@ includes:
 - bashtest.
 
 requires: [github](./github.md), [python](./python.md), [bash](./bash.md)
+
+duration: 6 hours

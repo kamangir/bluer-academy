@@ -7,5 +7,7 @@ topic = Topic(
         "using cloud storage",
         "creating cloud instances",
     ],
+    duration=6,
+    cost=0.25,
     requires="linux",
 )

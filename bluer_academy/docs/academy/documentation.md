@@ -7,3 +7,5 @@ includes:
 - a use case.
 
 requires: [github](./github.md), [python](./python.md), [bash](./bash.md)
+
+duration: 3 hours

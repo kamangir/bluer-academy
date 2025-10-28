@@ -7,22 +7,22 @@ class Topic:
     def __init__(
         self,
         name: str,
-        items: List[str] = [],
+        items: List[str],
+        duration: int,
+        cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
-        duration: int = 0,
-        cost: int = 0,
     ):
-        self.name = name
-        self.items = items
-        self.requirements = [
+        self.name: str = name
+        self.items: List[str] = items
+        self.requirements: List[str] = [
             requirement
             for requirement in (
                 requires if isinstance(requires, list) else requires.split(",")
             )
             if requirement
         ]
-        self.duration = duration
-        self.cost = cost
+        self.duration: int = duration
+        self.cost: Union[float, str] = cost
 
     def filename(
         self,
@@ -78,7 +78,11 @@ class Topic:
             + (
                 [
                     "",
-                    f"cost: {self.cost} mT",
+                    (
+                        f"cost: {self.cost:.2f} mT"
+                        if isinstance(self.cost, float)
+                        else f"needs {self.cost}"
+                    ),
                 ]
                 if self.cost
                 else []

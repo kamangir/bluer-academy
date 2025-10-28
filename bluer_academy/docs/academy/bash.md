@@ -7,3 +7,5 @@ includes:
 - command substitution.
 
 requires: [linux](./linux.md), [python](./python.md)
+
+duration: 3 hours

@@ -8,5 +8,7 @@ topic = Topic(
         "functions in bash",
         "command substitution",
     ],
+    duration=3,
+    cost=0,
     requires="linux,python",
 )

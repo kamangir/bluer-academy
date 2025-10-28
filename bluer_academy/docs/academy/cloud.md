@@ -6,3 +6,7 @@ includes:
 - creating cloud instances.
 
 requires: [linux](./linux.md)
+
+duration: 6 hours
+
+cost: 0.25 mT

@@ -8,5 +8,7 @@ topic = Topic(
         "git workflows",
         "pull requests and code review",
     ],
+    duration=3,
+    cost=0,
     requires="linux",
 )

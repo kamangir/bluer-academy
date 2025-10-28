@@ -7,5 +7,7 @@ topic = Topic(
         "pytest",
         "bashtest",
     ],
+    duration=6,
+    cost=0,
     requires="github,python,bash",
 )

@@ -7,3 +7,5 @@ includes:
 - pull requests and code review.
 
 requires: [linux](./linux.md)
+
+duration: 3 hours
