@@ -75,22 +75,25 @@ class Syllabus:
 
         in_degree = {node: G.in_degree(node) for node in G.nodes()}
 
-        roots = sorted([n for n, deg in in_degree.items() if deg == 0])
+        visited: List[str] = []
+        while True:
+            roots = sorted(
+                [
+                    node
+                    for node, deg in in_degree.items()
+                    if deg == 0 and node not in visited
+                ]
+            )
+            if not roots:
+                break
 
-        visited = []
-        stack = roots.copy()
+            visited += roots
 
-        while stack:
-            node = stack.pop(0)
-            visited.append(node)
+            for node in roots:
+                for neighbor in sorted(G.successors(node)):
+                    in_degree[neighbor] -= 1
 
-            for neighbor in sorted(G.successors(node)):
-                in_degree[neighbor] -= 1
-                if in_degree[neighbor] == 0:
-                    stack.append(neighbor)
-            stack.sort()
-
-        return True, list(reversed(visited))
+        return True, visited
 
     def topic(self, topic_name: str) -> Topic:
         for topic in self.list_of_topics:
