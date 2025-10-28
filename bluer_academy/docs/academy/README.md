@@ -21,3 +21,5 @@
 | 📐 | 6.0 | 66.0 | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
 
 ⏳ duration: 69.0 hours
+
+![image](../../assets/syllabus.png)
