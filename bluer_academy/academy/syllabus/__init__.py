@@ -3,6 +3,7 @@ from bluer_academy.academy.syllabus import (
     bash,
     cloud,
     documentation,
+    geospatial,
     github,
     linux,
     objects,
@@ -15,16 +16,20 @@ from bluer_academy.academy.syllabus import (
 
 syllabus = Syllabus(
     [
-        bash.topic,
-        cloud.topic,
-        documentation.topic,
-        github.topic,
-        linux.topic,
-        objects.topic,
-        math.topic,
-        plugins.topic,
-        pypi.topic,
-        python.topic,
-        testing.topic,
+        module.topic
+        for module in [
+            bash,
+            cloud,
+            documentation,
+            geospatial,
+            github,
+            linux,
+            objects,
+            math,
+            plugins,
+            pypi,
+            python,
+            testing,
+        ]
     ]
 )

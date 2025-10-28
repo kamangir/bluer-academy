@@ -7,8 +7,14 @@ def test_academy_topic():
     topic = math.topic
 
     assert isinstance(topic.name, str)
-    assert isinstance(topic.items, list)
+
+    assert isinstance(topic.agenda, list)
+    for item in topic.agenda:
+        assert isinstance(item, str)
+
     assert isinstance(topic.requirements, list)
+    for item in topic.requirements:
+        assert isinstance(item, str)
 
     assert isinstance(topic.as_markdown, list)
     for item in topic.as_markdown:

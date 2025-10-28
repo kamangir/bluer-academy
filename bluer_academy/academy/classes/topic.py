@@ -7,13 +7,16 @@ class Topic:
     def __init__(
         self,
         name: str,
-        items: List[str],
+        agenda: List[str],
         duration: float,
         cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
+        items: List[str] = [],
     ):
         self.name: str = name
-        self.items: List[str] = items
+        self.agenda: List[str] = agenda
+        self.cost: Union[float, str] = cost if isinstance(cost, str) else float(cost)
+        self.duration: float = float(duration)
         self.requirements: List[str] = [
             requirement
             for requirement in (
@@ -21,8 +24,7 @@ class Topic:
             )
             if requirement
         ]
-        self.duration: float = float(duration)
-        self.cost: Union[float, str] = cost if isinstance(cost, str) else float(cost)
+        self.items = items
 
     def filename(
         self,
@@ -53,7 +55,7 @@ class Topic:
     def as_markdown(self) -> List[str]:
         return (
             ["includes:"]
-            + [f"- {item}." for item in self.items]
+            + [f"- {item}." for item in self.agenda]
             + [""]
             + (
                 [

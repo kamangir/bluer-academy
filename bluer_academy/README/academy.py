@@ -5,7 +5,7 @@ docs = [
     {
         "path": "../docs/academy",
         "macros": {
-            "table:::": syllabus.as_table[1],
+            "table:::": syllabus.as_markdown[1],
             "duration:::": [
                 f"⏳ duration: {syllabus.duration} hours",
             ],

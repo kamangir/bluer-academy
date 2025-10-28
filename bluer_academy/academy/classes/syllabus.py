@@ -13,7 +13,7 @@ class Syllabus:
         self.list_of_topics: List[Topic] = list_of_topics
 
     @property
-    def as_table(self) -> Tuple[bool, List[str]]:
+    def as_markdown(self) -> Tuple[bool, List[str]]:
         success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
         if not success:
             return success, []

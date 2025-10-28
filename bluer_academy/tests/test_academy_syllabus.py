@@ -27,3 +27,8 @@ def test_academy_syllabus():
         syllabus.topic("astronomy")
 
     assert isinstance(syllabus.duration, float)
+
+    success, table = syllabus.as_markdown
+    assert success
+    for line in table:
+        assert isinstance(line, str)
