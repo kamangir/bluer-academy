@@ -31,7 +31,6 @@ def build():
                 {
                     "path": "../..",
                     "items": items,
-                    "cols": 5,
                 },
                 {
                     "path": "../docs",

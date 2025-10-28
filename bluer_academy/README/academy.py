@@ -14,6 +14,7 @@ docs = [
                 if topic.items
             }
         ),
+        "cols": 5,
         "macros": {
             "table:::": syllabus.as_markdown[1],
             "duration:::": [
