@@ -14,5 +14,5 @@ includes:
 
 ➡️ required for: [ugv](./ugv.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
-⏳ duration: 12.0 hours
+⏳ duration: 12.0 hour(s), including requirements: 36.0 hour(s)
 

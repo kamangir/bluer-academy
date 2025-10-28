@@ -8,5 +8,5 @@ includes:
 ⬅️ requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
 
-⏳ duration: 3.0 hours
+⏳ duration: 3.0 hour(s), including requirements: 27.0 hour(s)
 

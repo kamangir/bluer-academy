@@ -25,9 +25,12 @@ class Topic:
             )
             if requirement
         ]
-        self.required_for: List[str] = []
         self.items = items
         self.cols = cols
+
+        # expanded
+        self.required_for: List[str] = []
+        self.total_duration: float = 0.0
 
     def filename(
         self,
@@ -88,7 +91,11 @@ class Topic:
             + (
                 [
                     "",
-                    f"⏳ duration: {self.duration:.1f} hours",
+                    "⏳ duration: {:.1f} hour(s), "
+                    "including requirements: {:.1f} hour(s)".format(
+                        self.duration,
+                        self.total_duration,
+                    ),
                 ]
                 if self.duration
                 else []

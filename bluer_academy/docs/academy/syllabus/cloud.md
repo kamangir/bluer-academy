@@ -11,7 +11,7 @@ includes:
 
 ➡️ required for: [objects](./objects.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
-⏳ duration: 6.0 hours
+⏳ duration: 6.0 hour(s), including requirements: 12.0 hour(s)
 
 💰 cost: 0.25 mT
 

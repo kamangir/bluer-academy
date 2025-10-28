@@ -137,6 +137,7 @@ class Syllabus:
                 for topic_name_ in sorted_list_of_topic_names
                 if topic_name in self.topic(topic_name_).requirements
             ]
+            topic.total_duration = self.duration_of(topic_name)
 
         return True
 

@@ -11,5 +11,5 @@ includes:
 
 ➡️ required for: [ugv](./ugv.md)
 
-⏳ duration: 3.0 hours
+⏳ duration: 3.0 hour(s), including requirements: 27.0 hour(s)
 

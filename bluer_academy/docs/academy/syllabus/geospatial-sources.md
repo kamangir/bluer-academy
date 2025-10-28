@@ -13,7 +13,7 @@ includes:
 
 ➡️ required for: [geospatial-timeseries](./geospatial-timeseries.md)
 
-⏳ duration: 6.0 hours
+⏳ duration: 6.0 hour(s), including requirements: 60.0 hour(s)
 
 |   |
 | --- |
