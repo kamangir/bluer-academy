@@ -91,8 +91,8 @@ class Topic:
             + (
                 [
                     "",
-                    "⏳ duration: {:.1f} hour(s), "
-                    "including requirements: {:.1f} hour(s)".format(
+                    "⏳ duration (hours): {:.1f} - "
+                    "including requirements: {:.1f}".format(
                         self.duration,
                         self.total_duration,
                     ),

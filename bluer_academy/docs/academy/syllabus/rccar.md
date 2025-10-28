@@ -9,7 +9,7 @@ includes:
 ⬅️ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [documentation](./documentation.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
 
-⏳ duration: 6.0 hour(s), including requirements: 39.0 hour(s)
+⏳ duration (hours): 6.0 - including requirements: 39.0
 
 |   |   |
 | --- | --- |

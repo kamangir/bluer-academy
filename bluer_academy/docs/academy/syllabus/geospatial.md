@@ -12,5 +12,5 @@ includes:
 
 ➡️ required for: [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
-⏳ duration: 6.0 hour(s), including requirements: 51.0 hour(s)
+⏳ duration (hours): 6.0 - including requirements: 51.0
 

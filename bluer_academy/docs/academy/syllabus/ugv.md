@@ -12,7 +12,7 @@ includes:
 ⬅️ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [github](./github.md), [linux](./linux.md), [machine-vision](./machine-vision.md), [math](./math.md), [python](./python.md), [sbc](./sbc.md)
 
 
-⏳ duration: 12.0 hour(s), including requirements: 57.0 hour(s)
+⏳ duration (hours): 12.0 - including requirements: 57.0
 
 |   |
 | --- |
