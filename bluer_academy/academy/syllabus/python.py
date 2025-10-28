@@ -9,6 +9,7 @@ topic = Topic(
         "numpy",
         "pandas",
         "matplotlib",
+        "working with web APIs",
     ],
     duration=12,
     requires="linux,github",

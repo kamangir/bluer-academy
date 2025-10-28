@@ -1,5 +1,6 @@
 from bluer_academy.academy.classes.syllabus import Syllabus
 from bluer_academy.academy.syllabus import (
+    aiart,
     bash,
     basic_electronics,
     city_watching,
@@ -33,6 +34,7 @@ syllabus = Syllabus(
     [
         module.topic
         for module in [
+            aiart,
             bash,
             basic_electronics,
             city_watching,
