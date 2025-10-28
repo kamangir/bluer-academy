@@ -1,6 +1,6 @@
 # academy: math
 
 includes:
-- access, automation, analytics, AI
-- orthogonality
+- access, automation, analytics, AI.
+- orthogonality.
 

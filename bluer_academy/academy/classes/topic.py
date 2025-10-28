@@ -9,6 +9,8 @@ class Topic:
         name: str,
         items: List[str] = [],
         requires: Union[str, List[str]] = "",
+        duration: int = 0,
+        cost: int = 0,
     ):
         self.name = name
         self.items = items
@@ -19,6 +21,8 @@ class Topic:
             )
             if requirement
         ]
+        self.duration = duration
+        self.cost = cost
 
     def filename(
         self,
@@ -49,7 +53,7 @@ class Topic:
     def as_markdown(self) -> List[str]:
         return (
             ["includes:"]
-            + [f"- {item}" for item in self.items]
+            + [f"- {item}." for item in self.items]
             + [""]
             + (
                 [
@@ -61,6 +65,22 @@ class Topic:
                     ),
                 ]
                 if self.requirements
+                else []
+            )
+            + (
+                [
+                    "",
+                    f"duration: {self.duration} hours",
+                ]
+                if self.duration
+                else []
+            )
+            + (
+                [
+                    "",
+                    f"cost: {self.cost} mT",
+                ]
+                if self.cost
                 else []
             )
         )
