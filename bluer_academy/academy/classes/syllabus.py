@@ -16,14 +16,14 @@ class Syllabus:
     def as_table(self) -> Tuple[bool, List[str]]:
         success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
         if not success:
-            return False, []
+            return success, []
 
         table: List[str] = [
             "".join(["| " for _ in range(len(sorted_list_of_topic_names))]) + "|",
             "".join(["|-" for _ in range(len(sorted_list_of_topic_names))]) + "|",
         ]
 
-        return table
+        return success, table
 
     def as_graph(self) -> Tuple[bool, nx.DiGraph]:
         G = nx.DiGraph()
