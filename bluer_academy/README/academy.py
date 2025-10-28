@@ -14,6 +14,7 @@ docs = [
 ] + [
     {
         "path": topic.filename(create=True),
+        "items": topic.items,
         "macros": {
             "content:::": topic.as_markdown,
         },
