@@ -6,7 +6,7 @@ from bluer_objects import file, README
 from bluer_academy import NAME, VERSION, ICON, REPO_NAME
 from bluer_academy.help.functions import help_functions
 from bluer_academy.README.items import items
-from bluer_academy.README import ai4k
+from bluer_academy.README import academy, ai4k
 
 
 def build():
@@ -33,5 +33,6 @@ def build():
                 "path": "../docs",
             },
         ]
+        + academy.docs
         + ai4k.docs
     )
