@@ -2,6 +2,7 @@ from bluer_academy.academy.classes.syllabus import Syllabus
 from bluer_academy.academy.syllabus import (
     bash,
     basic_electronics,
+    city_watching,
     cloud,
     documentation,
     flow_management,
@@ -32,6 +33,7 @@ syllabus = Syllabus(
         for module in [
             bash,
             basic_electronics,
+            city_watching,
             cloud,
             documentation,
             flow_management,
