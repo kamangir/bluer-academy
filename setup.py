@@ -10,6 +10,9 @@ setup(
     description=DESCRIPTION,
     packages=[
         NAME,
+        f"{NAME}.academy",
+        f"{NAME}.academy.classes",
+        f"{NAME}.academy.syllabus",
         f"{NAME}.ai4k",
         f"{NAME}.help",
     ],

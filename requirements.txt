@@ -1,1 +1,4 @@
 bluer_ai
+
+networkx
+pydot==3.0.4
