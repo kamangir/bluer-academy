@@ -2,6 +2,8 @@
 
 📐 an academy for practical AI in Iran.
 
+instructions: ([en](./instructions/en.md)), 🇮🇷 ([fa](./instructions/en.md))
+
 ## syllabus
 
 | | capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [bas...](./syllabus/basic-electronics.md) | [math](./syllabus/math.md) | [linux](./syllabus/linux.md) | [cloud](./syllabus/cloud.md) | [github](./syllabus/github.md) | [python](./syllabus/python.md) | [bash](./syllabus/bash.md) | [aiart](./syllabus/aiart.md) | [doc...](./syllabus/documentation.md) | [flo...](./syllabus/flow-management.md) | [jou...](./syllabus/journal.md) | [mac...](./syllabus/machine-vision.md) | [obj...](./syllabus/objects.md) | [pypi](./syllabus/pypi.md) | [san...](./syllabus/sandbox.md) | [sbc](./syllabus/sbc.md) | [tes...](./syllabus/testing.md) | [plu...](./syllabus/plugins.md) | [rccar](./syllabus/rccar.md) | [ugv](./syllabus/ugv.md) | [geo...](./syllabus/geospatial.md) | [rcc...](./syllabus/rccar_arduino.md) | [yolo](./syllabus/yolo.md) | [QGIS](./syllabus/QGIS.md) | [cit...](./syllabus/city-watching.md) | [geo...](./syllabus/geospatial-sources.md) | [geo...](./syllabus/geospatial-semseg.md) | [geo...](./syllabus/geospatial-timeseries.md) |
