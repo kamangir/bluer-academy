@@ -6,7 +6,7 @@ docs = [
         "path": "../docs/academy",
         "macros": {
             "table:::": syllabus.as_table[1],
-            "duration:::": [f"{syllabus.cost} hours"],
+            "duration:::": [f"duration: {syllabus.cost} hours"],
         },
     },
 ] + [
