@@ -7,4 +7,4 @@ includes:
 
 requires: [github](./github.md), [python](./python.md), [bash](./bash.md)
 
-duration: 6.0 hours
+⏳ duration: 6.0 hours

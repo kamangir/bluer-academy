@@ -16,4 +16,4 @@
 | [pypi](./pypi.md) | ℹ️ |  |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |  |  |
 | [testing](./testing.md) |  |  |  | ℹ️ | ℹ️ | ℹ️ |  |  |  |  |  |
 
-duration: 48.0 hours
+⏳ duration: 48.0 hours
