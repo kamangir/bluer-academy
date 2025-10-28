@@ -28,9 +28,10 @@ topic = Topic(
                 suffix=f"palisades/palisades-analytics-2025-01-28-09-27-20-itglyy/{filename}"
             ): f"{palisades_blob}/docs/damage-analytics.md"
             for filename in [
-                "thumbnail-039462-378510-palisades-analytics-2025-01-28-09-27-20-itglyy.gif"
-                "Palisades.png"
+                "thumbnail-039462-378510-palisades-analytics-2025-01-28-09-27-20-itglyy.gif",
+                "Palisades.png",
             ]
         },
     },
+    cols=2,
 )

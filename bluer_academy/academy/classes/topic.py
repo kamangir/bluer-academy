@@ -12,6 +12,7 @@ class Topic:
         cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
         items: Dict[str, str] = {},
+        cols: int = 3,
     ):
         self.name: str = name
         self.agenda: List[str] = agenda
@@ -26,6 +27,7 @@ class Topic:
         ]
         self.required_for: List[str] = []
         self.items = items
+        self.cols = cols
 
     def filename(
         self,
