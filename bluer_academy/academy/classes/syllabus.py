@@ -34,7 +34,6 @@ class Syllabus:
             colormap=dot_file.status_color_map,
             caption=fullname(),
             add_legend=False,
-            font_size=14,
         )
 
     @property
@@ -92,6 +91,7 @@ class Syllabus:
 
         for topic in self.list_of_topics:
             G.add_node(topic.name)
+            G.nodes[topic.name]["status"] = "SUCCEEDED" if topic.items else ""
 
         for topic in self.list_of_topics:
             for requirement in topic.requirements:
