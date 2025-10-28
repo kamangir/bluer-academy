@@ -19,7 +19,10 @@ class Syllabus:
 
         assert self.expand_requirements()
 
-    def as_image(self, filename: str) -> bool:
+    def as_image(
+        self,
+        filename: str,
+    ) -> bool:
         success, G = self.as_graph()
         if not success:
             return success
@@ -27,8 +30,10 @@ class Syllabus:
         return dot_file.export_graph_as_image(
             G,
             filename,
+            layout="spring",
             colormap=dot_file.status_color_map,
             caption=fullname(),
+            add_legend=False,
         )
 
     @property

@@ -15,4 +15,4 @@ pip install bluer-academy
 
 [![pylint](https://github.com/kamangir/bluer-academy/actions/workflows/pylint.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/pylint.yml) [![pytest](https://github.com/kamangir/bluer-academy/actions/workflows/pytest.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/pytest.yml) [![bashtest](https://github.com/kamangir/bluer-academy/actions/workflows/bashtest.yml/badge.svg)](https://github.com/kamangir/bluer-academy/actions/workflows/bashtest.yml) [![PyPI version](https://img.shields.io/pypi/v/bluer-academy.svg)](https://pypi.org/project/bluer-academy/) [![PyPI - Downloads](https://img.shields.io/pypi/dd/bluer-academy)](https://pypistats.org/packages/bluer-academy)
 
-built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 📐 [`bluer_academy-5.94.1`](https://github.com/kamangir/bluer-academy).
+built by 🌀 [`bluer README`](https://github.com/kamangir/bluer-objects/tree/main/bluer_objects/README), based on 📐 [`bluer_academy-5.95.1`](https://github.com/kamangir/bluer-academy).
