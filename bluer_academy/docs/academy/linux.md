@@ -1,4 +1,3 @@
 # academy: linux
 
 🔥
-requires: 

@@ -1,4 +1,4 @@
 # academy: bash
 
 🔥
-requires: [linux](./linux.md),[python](./python.md)
+requires: [linux](./linux.md), [python](./python.md)

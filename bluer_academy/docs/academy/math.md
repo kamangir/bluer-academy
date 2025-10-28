@@ -1,4 +1,3 @@
 # academy: math
 
 🔥
-requires: 
