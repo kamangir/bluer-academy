@@ -8,6 +8,7 @@ from bluer_academy.academy.syllabus import (
     geospatial_timeseries,
     github,
     linux,
+    machine_vision,
     math,
     objects,
     plugins,
@@ -16,6 +17,7 @@ from bluer_academy.academy.syllabus import (
     QGIS,
     sbc,
     testing,
+    ugv,
 )
 
 syllabus = Syllabus(
@@ -30,6 +32,7 @@ syllabus = Syllabus(
             geospatial_timeseries,
             github,
             linux,
+            machine_vision,
             objects,
             math,
             plugins,
@@ -38,6 +41,7 @@ syllabus = Syllabus(
             QGIS,
             sbc,
             testing,
+            ugv,
         ]
     ]
 )

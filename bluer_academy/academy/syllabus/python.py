@@ -7,7 +7,6 @@ topic = Topic(
         "cli's and imports",
         "jupyter notebooks",
         "numpy",
-        "opencv",
         "pandas",
         "matplotlib",
     ],
