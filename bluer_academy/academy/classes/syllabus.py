@@ -23,17 +23,18 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| capstone project | depends on -> |"
+            "| capstone project | duration | depends on: |"
             + "".join(
                 [
                     f" [{topic_name}](./{topic_name}.md) |"
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
-            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 2)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 3)]),
         ] + [
-            "| {} | [{}](./{}.md) |".format(
+            "| {} | {} | [{}](./{}.md) |".format(
                 "📐" if self.topic(topic_name).items else "",
+                "🔥",
                 topic_name,
                 topic_name,
             )
