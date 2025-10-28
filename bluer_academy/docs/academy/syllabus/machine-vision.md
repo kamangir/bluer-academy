@@ -16,3 +16,6 @@ includes:
 
 ⏳ duration (hours): 12.0 - including requirements: 36.0
 
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets/raw/main/roofAI/predict-00009.png?raw=true)](https://github.com/kamangir/roofai/tree/main/roofai/semseg) |

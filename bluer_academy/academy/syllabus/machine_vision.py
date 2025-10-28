@@ -1,3 +1,5 @@
+from bluer_objects.README.consts import assets_url
+
 from bluer_academy.academy.classes.topic import Topic
 from bluer_academy.academy.syllabus.consts import bluer_algo_blob
 
@@ -13,5 +15,9 @@ topic = Topic(
     ],
     duration=12,
     requires="python,bash",
-    items={},
+    items={
+        assets_url(
+            "roofAI/predict-00009.png"
+        ): "https://github.com/kamangir/roofai/tree/main/roofai/semseg"
+    },
 )
