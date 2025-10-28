@@ -73,25 +73,27 @@ class Syllabus:
         if not success:
             return success, []
 
-        in_degree = {node: G.in_degree(node) for node in G.nodes()}
+        out_degree = {node: G.out_degree(node) for node in G.nodes()}
 
         visited: List[str] = []
         while True:
             roots = sorted(
                 [
                     node
-                    for node, deg in in_degree.items()
+                    for node, deg in out_degree.items()
                     if deg == 0 and node not in visited
                 ]
             )
             if not roots:
                 break
 
+            print(f"roots: {roots}")
+
             visited += roots
 
             for node in roots:
-                for neighbor in sorted(G.successors(node)):
-                    in_degree[neighbor] -= 1
+                for neighbor in sorted(G.predecessors(node)):
+                    out_degree[neighbor] -= 1
 
         return True, visited
 
