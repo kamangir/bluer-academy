@@ -1,6 +1,9 @@
 # ai4k: experiments: ravin
 
-description:::
+- what is [ravin](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/ravin)?
+- what technologies make ravin work?
+- drive ravin
+- what are ravin's shortcomings and how can we make it better?
 
 |   |   |   |
 | --- | --- | --- |
