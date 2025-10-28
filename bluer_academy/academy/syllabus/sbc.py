@@ -16,11 +16,11 @@ topic = Topic(
         assets_url(
             suffix="swallow/design/head-v1/01.jpg?raw=true",
             volume=2,
-        ): f"{bluer_sbc_blob}docs/swallow-head.md",
+        ): f"{bluer_sbc_blob}/docs/swallow-head.md",
         assets_url(
             suffix="swallow/design/v5/01.jpg?raw=true",
             volume=2,
-        ): f"{bluer_sbc_blob}docs/swallow.md",
+        ): f"{bluer_sbc_blob}/docs/swallow.md",
         "https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg": "https://github.com/kamangir/blue-bracket",
     },
 )

@@ -19,14 +19,14 @@ topic = Topic(
         assets_url(
             suffix="battery-bus/20251007_221902.jpg",
             volume=2,
-        ): f"{bluer_sbc_blob}docs/battery-bus.md",
+        ): f"{bluer_sbc_blob}/docs/battery-bus.md",
         assets_url(
             suffix="adapter-bus/20251017_222911.jpg",
             volume=2,
-        ): f"{bluer_sbc_blob}docs/adapter-bus.md",
+        ): f"{bluer_sbc_blob}/docs/adapter-bus.md",
         assets_url(
             suffix="ultrasonic-sensor-tester/00.jpg?raw=true",
             volume=2,
-        ): f"{bluer_sbc_blob}docs/ultrasonic-sensor-tester.md",
+        ): f"{bluer_sbc_blob}/docs/ultrasonic-sensor-tester.md",
     },
 )
