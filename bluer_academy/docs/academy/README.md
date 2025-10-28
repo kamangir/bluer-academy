@@ -2,7 +2,7 @@
 
 📐 an academy for practical AI in Iran.
 
-| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [math](./math.md) | [linux](./linux.md) | [cloud](./cloud.md) | [github](./github.md) | [python](./python.md) | [bash](./bash.md) | [docume...](./documentation.md) | [object...](./objects.md) | [pypi](./pypi.md) | [testin...](./testing.md) | [plugin...](./plugins.md) | [geospa...](./geospatial.md) | [QGIS](./QGIS.md) | [geospa...](./geospatial-sources.md) | [geospa...](./geospatial-timeseries.md) |
+| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [6](./math.md) | [6](./linux.md) | [6](./cloud.md) | [6](./github.md) | [6](./python.md) | [6](./bash.md) | [doc...](./documentation.md) | [obj...](./objects.md) | [6](./pypi.md) | [tes...](./testing.md) | [plu...](./plugins.md) | [geo...](./geospatial.md) | [6](./QGIS.md) | [geo...](./geospatial-sources.md) | [geo...](./geospatial-timeseries.md) |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |  | 3.0 | 3.0 | [math](./math.md) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |  | 3.0 | 6.0 | [linux](./linux.md) | ℹ️ |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
