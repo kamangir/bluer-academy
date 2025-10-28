@@ -12,3 +12,6 @@ includes:
 
 ⏳ duration (hours): 2.0 - including requirements: 32.0
 
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets/raw/main/bluer_flow-localflow-hourglass/workflow.gif?raw=true)](https://github.com/kamangir/bluer-flow) |
