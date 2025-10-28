@@ -2,17 +2,17 @@
 
 includes:
 - basic electronics.
+- power management.
 - voltage conversion.
 - soldiering, working with electronic parts.
 - sourcing electronic parts.
 - motor drivers and pwm.
 - wireless control.
-- ultrasonic sensors.
 
 ---
 
 
 ➡️ required for: [rccar](./rccar.md), [ugv](./ugv.md)
 
-⏳ duration: 3.0 hours
+⏳ duration: 6.0 hours
 
