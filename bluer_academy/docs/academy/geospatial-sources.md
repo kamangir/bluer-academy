@@ -8,3 +8,7 @@ includes:
 - [ukraine damage map](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/ukraine_timemap).
 
 requires: [geospatial](./geospatial.md)
+
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/catalog/maxar_open_data) |
