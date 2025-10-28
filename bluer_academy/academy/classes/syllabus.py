@@ -21,16 +21,16 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| depends on -> |"
+            "| | depends on -> |"
             + "".join(
                 [
                     f" [{topic_name}](./{topic_name}.md) |"
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
-            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 1)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 2)]),
         ] + [
-            f"| [{topic_name}](./{topic_name}.md) |"
+            f"| | [{topic_name}](./{topic_name}.md) |"
             + "".join(
                 [
                     " {} |".format(
