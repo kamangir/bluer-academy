@@ -28,13 +28,37 @@ class Syllabus:
             for requirement in topic.requirements:
                 G.add_edge(topic.name, requirement)
 
+        if not nx.is_directed_acyclic_graph(G):
+            logger.error("graph has a loop")
+            return False, G
+
         return True, G
+
+    @property
+    def sorted_list_of_topic_names(self) -> Tuple[bool, List[str]]:
+        success, G = self.graph()
+        if not success:
+            return success, []
+
+        in_degree = {node: G.in_degree(node) for node in G.nodes()}
+
+        roots = sorted([n for n, deg in in_degree.items() if deg == 0])
+
+        visited = []
+        stack = roots.copy()
+
+        while stack:
+            node = stack.pop(0)
+            visited.append(node)
+
+            for neighbor in sorted(G.successors(node)):
+                in_degree[neighbor] -= 1
+                if in_degree[neighbor] == 0:
+                    stack.append(neighbor)
+            stack.sort()
+
+        return True, visited
 
     @property
     def list_of_topic_names(self) -> List[str]:
         return [topic.name for topic in self.list_of_topics]
-
-    def test(self) -> bool:
-        success, G = self.graph()
-
-        return success

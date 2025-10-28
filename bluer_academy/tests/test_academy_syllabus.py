@@ -8,8 +8,13 @@ def test_academy_syllabus():
     assert success
     assert isinstance(G, nx.DiGraph)
 
-    assert syllabus.test()
-
-    assert isinstance(syllabus.list_of_topic_names, list)
+    list_of_topic_names = syllabus.list_of_topic_names
+    assert isinstance(list_of_topic_names, list)
     for topic in syllabus.list_of_topic_names:
+        assert isinstance(topic, str)
+
+    success, list_of_topic_names = syllabus.sorted_list_of_topic_names
+    assert success
+    assert isinstance(list_of_topic_names, list)
+    for topic in list_of_topic_names:
         assert isinstance(topic, str)

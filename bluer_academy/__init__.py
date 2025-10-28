@@ -4,7 +4,7 @@ ICON = "📐"
 
 DESCRIPTION = f"{ICON} an academy for practical AI in Iran."
 
-VERSION = "5.17.1"
+VERSION = "5.18.1"
 
 REPO_NAME = "bluer-academy"
 
