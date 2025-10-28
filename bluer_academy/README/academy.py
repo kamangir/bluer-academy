@@ -16,7 +16,7 @@ docs = (
                         "url": "./syllabus/{}.md".format(topic.name),
                     }
                     for topic in syllabus.list_of_topics
-                    if topic.items
+                    if topic.capstone
                 ]
             ),
             "cols": 5,
