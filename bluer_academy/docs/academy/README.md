@@ -21,6 +21,6 @@
 | 📐 | 6.0 | 60.0 | [geospatial-sources](./geospatial-sources.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  |
 | 📐 | 6.0 | 66.0 | [geospatial-timeseries](./geospatial-timeseries.md) | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |  | ℹ️ | ℹ️ | ℹ️ | ℹ️ | ℹ️ |  |
 
-⏳ duration: 72.0 hours
+⏳ total duration: 72.0 hours
 
 ![image](../../assets/syllabus.png)
