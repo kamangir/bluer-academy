@@ -8,7 +8,7 @@ includes:
 ⬅️ requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [flow-management](./flow-management.md), [geospatial](./geospatial.md), [geospatial-sources](./geospatial-sources.md), [github](./github.md), [linux](./linux.md), [machine-vision](./machine-vision.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
 
-⏳ duration (hours): 6.0 - including requirements: 78.0
+⏳ duration (hours): 6.0 - including requirements: 80.0
 
 |   |   |
 | --- | --- |

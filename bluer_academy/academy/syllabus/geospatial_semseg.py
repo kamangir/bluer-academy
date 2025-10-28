@@ -1,6 +1,6 @@
 from bluer_objects.README.consts import assets_url
 
-from bluer_academy.academy.syllabus.consts import bluer_geo_tree, palisades_blob
+from bluer_academy.academy.syllabus.consts import palisades_blob
 from bluer_academy.academy.classes.topic import Topic
 
 topic = Topic(

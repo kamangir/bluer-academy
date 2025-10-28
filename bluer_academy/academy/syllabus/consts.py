@@ -23,3 +23,5 @@ bluer_ugv_tree = f"{bluer_ugv_root}/tree/main/bluer_ugv"
 palisades_root = "https://github.com/kamangir/palisades"
 palisades_blob = f"{palisades_root}/blob/main/palisades"
 palisades_tree = f"{bluer_ugv_root}/tree/main/palisades"
+
+vanwatch_root = "https://github.com/kamangir/vancouver-watching"

@@ -6,6 +6,6 @@ topic = Topic(
         "[flow management basics](https://github.com/kamangir/bluer-flow)",
         "flow management on arvancloud",
     ],
-    duration=0,
+    duration=2,
     requires="linux,bash,python,cloud",
 )
