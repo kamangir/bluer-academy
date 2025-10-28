@@ -17,12 +17,6 @@ function test_bluer_academy_help() {
         "@academy test" \
         "@academy test list" \
         \
-        "@academy leaf" \
-        "@academy node" \
-        "@academy node leaf" \
-        \
-        "@academy task" \
-        \
         "bluer_academy"; do
         bluer_ai_eval ,$options \
             bluer_ai_help $module
