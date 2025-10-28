@@ -12,4 +12,4 @@ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [githu
 
 |   |
 | --- |
-| [![image](https://github.com/kamangir/assets/raw/main/arzhang/VID-20250905-WA0014_1.gif?raw=true)](https://github.com/kamangir/bluer-ugv) |
+| [![image](https://github.com/kamangir/assets2/raw/main/arzhang/VID-20250905-WA0014_1.gif?raw=true)](https://github.com/kamangir/bluer-ugv) |

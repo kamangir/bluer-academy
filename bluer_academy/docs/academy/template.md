@@ -12,6 +12,6 @@ details:::graph
 ![image](../../assets/syllabus.png)
 details:::
 
-## capstone projects
+## 📐 capstone projects
 
 items:::
