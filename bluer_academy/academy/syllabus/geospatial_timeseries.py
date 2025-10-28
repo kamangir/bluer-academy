@@ -9,7 +9,7 @@ topic = Topic(
         f"[running a timeseries on Sentinel-2 on Miduk]({bluer_geo_tree}/watch)",
     ],
     duration=6,
-    requires="geospatial,geospatial-sources,machine-vision",
+    requires="geospatial,geospatial-sources,machine-vision,flow-management",
     items={
         assets_url(
             suffix="{object_name}/{object_name}.gif".format(object_name=object_name),

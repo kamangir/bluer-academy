@@ -9,7 +9,7 @@ includes:
 
 ⬅️ requires: [linux](./linux.md), [math](./math.md)
 
-➡️ required for: [objects](./objects.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
+➡️ required for: [flow-management](./flow-management.md), [objects](./objects.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration (hours): 6.0 - including requirements: 12.0
 
