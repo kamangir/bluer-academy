@@ -67,12 +67,12 @@ class Syllabus:
         return True, G
 
     @property
-    def cost(self) -> float:
+    def duration(self) -> float:
         return sum(
             [
-                topic.cost
+                topic.duration
                 for topic in self.list_of_topics
-                if isinstance(topic.cost, float)
+                if isinstance(topic.duration, float)
             ]
         )
 

@@ -8,7 +8,7 @@ class Topic:
         self,
         name: str,
         items: List[str],
-        duration: int,
+        duration: float,
         cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
     ):
@@ -21,7 +21,7 @@ class Topic:
             )
             if requirement
         ]
-        self.duration: int = duration
+        self.duration: float = float(duration)
         self.cost: Union[float, str] = cost if isinstance(cost, str) else float(cost)
 
     def filename(

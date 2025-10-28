@@ -26,4 +26,4 @@ def test_academy_syllabus():
     with pytest.raises(NameError):
         syllabus.topic("astronomy")
 
-    assert isinstance(syllabus.cost, float)
+    assert isinstance(syllabus.duration, float)
