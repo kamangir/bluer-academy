@@ -6,10 +6,10 @@ from bluer_academy.academy.classes.topic import Topic
 topic = Topic(
     "geospatial-sources",
     [
-        f"[maxar open data]({bluer_geo_blob}/catalog/maxar_open_data): disaster management",
         f"[copernicus]({bluer_geo_blob}/catalog/copernicus): sentinels 1 & 2",
         f"[firms]({bluer_geo_blob}/catalog/firms): fire information",
         f"[global power plant]({bluer_geo_blob}/objects/md/global_power_plant_database.md): open source database of power plants around the world",
+        f"[maxar open data]({bluer_geo_blob}/catalog/maxar_open_data): disaster management",
         f"[ukraine damage map]({bluer_geo_blob}/catalog/ukraine_timemap)",
     ],
     duration=6,

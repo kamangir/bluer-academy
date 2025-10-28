@@ -9,7 +9,7 @@ includes:
 
 ⬅️ requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
-➡️ required for: [plugins](./plugins.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
+➡️ required for: [plugins](./plugins.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration (hours): 6.0 - including requirements: 30.0
 

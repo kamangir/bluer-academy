@@ -2,7 +2,6 @@
 
 includes:
 - [running a timeseries on Sentinel-2 on Miduk](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch).
-- [fire damage assessment in LA](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md).
 
 ---
 
@@ -14,4 +13,3 @@ includes:
 |   |   |
 | --- | --- |
 | [![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch) | [![image](https://github.com/kamangir/assets/raw/main/geo-watch-diff-2025-05-23-2j8p1f/geo-watch-diff-2025-05-23-2j8p1f.gif?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch) |
-| [![image](https://github.com/kamangir/assets/raw/main/palisades/palisades-analytics-2025-01-28-09-27-20-itglyy/thumbnail-039462-378510-palisades-analytics-2025-01-28-09-27-20-itglyy.gif?raw=true)](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md) | [![image](https://github.com/kamangir/assets/raw/main/palisades/palisades-analytics-2025-01-28-09-27-20-itglyy/Palisades.png?raw=true)](https://github.com/kamangir/palisades/blob/main/palisades/docs/damage-analytics.md) |

@@ -12,7 +12,7 @@ includes:
 
 ⬅️ requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
-➡️ required for: [ugv](./ugv.md), [geospatial-timeseries](./geospatial-timeseries.md)
+➡️ required for: [ugv](./ugv.md), [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration (hours): 12.0 - including requirements: 36.0
 

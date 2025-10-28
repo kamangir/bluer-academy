@@ -1,17 +1,17 @@
 # academy: syllabus: geospatial-sources
 
 includes:
-- [maxar open data](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/maxar_open_data): disaster management.
 - [copernicus](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/copernicus): sentinels 1 & 2.
 - [firms](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/firms): fire information.
 - [global power plant](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/objects/md/global_power_plant_database.md): open source database of power plants around the world.
+- [maxar open data](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/maxar_open_data): disaster management.
 - [ukraine damage map](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/ukraine_timemap).
 
 ---
 
 ⬅️ requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
-➡️ required for: [geospatial-timeseries](./geospatial-timeseries.md)
+➡️ required for: [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
 ⏳ duration (hours): 6.0 - including requirements: 60.0
 
