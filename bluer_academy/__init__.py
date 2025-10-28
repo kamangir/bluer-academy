@@ -2,13 +2,15 @@ NAME = "bluer_academy"
 
 ICON = "📐"
 
-DESCRIPTION = f"{ICON} an academy for AI."
+DESCRIPTION = f"{ICON} an academy for practical AI in Iran."
 
-VERSION = "5.10.1"
+VERSION = "5.13.1"
 
 REPO_NAME = "bluer-academy"
 
-MARQUEE = "TBA"
+MARQUEE = (
+    "https://github.com/kamangir/assets2/raw/main/academy/concepts/06.png?raw=true"
+)
 
 ALIAS = "@academy"
 
