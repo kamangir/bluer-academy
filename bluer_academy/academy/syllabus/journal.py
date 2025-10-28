@@ -10,4 +10,5 @@ topic = Topic(
     items={
         "https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true": "https://github.com/kamangir/bluer-journal",
     },
+    capstone=True,
 )

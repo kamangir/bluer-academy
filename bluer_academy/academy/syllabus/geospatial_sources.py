@@ -19,4 +19,5 @@ topic = Topic(
             suffix="blue-geo/Maxar-Open-Datacube.png"
         ): f"{bluer_geo_tree}/catalog/maxar_open_data"
     },
+    capstone=True,
 )

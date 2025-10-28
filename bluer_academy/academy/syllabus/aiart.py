@@ -12,4 +12,5 @@ topic = Topic(
         "https://github.com/kamangir/openai-commands/raw/main/assets/DALL-E.png?raw=true": "https://github.com/kamangir/openai-commands",
         "https://github.com/kamangir/blue-stability/raw/main/assets/carrot.png": "https://github.com/kamangir/blue-stability",
     },
+    capstone=True,
 )

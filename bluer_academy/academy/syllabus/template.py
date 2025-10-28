@@ -7,4 +7,5 @@ topic = Topic(
     ],
     duration=0,
     requires="template,template",
+    items={},
 )

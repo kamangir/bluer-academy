@@ -25,4 +25,5 @@ topic = Topic(
             volume=2,
         ): bluer_ugv_root,
     },
+    capstone=True,
 )

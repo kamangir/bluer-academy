@@ -13,4 +13,5 @@ topic = Topic(
     items={
         assets_url(suffix="vanwatch/2024-01-06-20-39-46-73614-QGIS.gif"): vanwatch_root
     },
+    capstone=True,
 )

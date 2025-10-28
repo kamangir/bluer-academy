@@ -60,7 +60,7 @@ class Syllabus:
         ] + [
             "| {} | {} | {} | {} | [{}](./syllabus/{}.md) |".format(
                 index + 1,
-                "📐" if self.topic(topic_name).items else "",
+                "📐" if self.topic(topic_name).capstone else "",
                 "{:.1f}".format(self.topic(topic_name).duration),
                 "{:.1f}".format(self.duration_of(topic_name)),
                 topic_name,
@@ -92,7 +92,7 @@ class Syllabus:
 
         for topic in self.list_of_topics:
             G.add_node(topic.name)
-            G.nodes[topic.name]["status"] = "SUCCEEDED" if topic.items else ""
+            G.nodes[topic.name]["status"] = "SUCCEEDED" if topic.capstone else ""
 
         for topic in self.list_of_topics:
             for requirement in topic.requirements:

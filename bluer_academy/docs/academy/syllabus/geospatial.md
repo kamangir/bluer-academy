@@ -14,3 +14,6 @@ includes:
 
 ⏳ duration (hours): 6.0 - including requirements: 51.0
 
+|   |
+| --- |
+| [![image](https://github.com/kamangir/assets/raw/main/blue-geo/chilcotin-query-2024-08-23-v1.png?raw=true)](https://github.com/kamangir/bluer-geo/catalog/copernicus) |
