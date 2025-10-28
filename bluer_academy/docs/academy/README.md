@@ -2,6 +2,8 @@
 
 📐 an academy for practical AI in Iran.
 
+## syllabus
+
 | capstone project? | duration (hours) | duration, including requirements (hours) | depends on: | [math](./syllabus/math.md) | [linux](./syllabus/linux.md) | [cloud](./syllabus/cloud.md) | [github](./syllabus/github.md) | [python](./syllabus/python.md) | [bash](./syllabus/bash.md) | [doc...](./syllabus/documentation.md) | [obj...](./syllabus/objects.md) | [pypi](./syllabus/pypi.md) | [sbc](./syllabus/sbc.md) | [tes...](./syllabus/testing.md) | [plu...](./syllabus/plugins.md) | [geo...](./syllabus/geospatial.md) | [QGIS](./syllabus/QGIS.md) | [geo...](./syllabus/geospatial-sources.md) | [geo...](./syllabus/geospatial-timeseries.md) |
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |  | 3.0 | 3.0 | [math](./syllabus/math.md) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
