@@ -1,6 +1,9 @@
 # ai4k: experiments
 
-list:::
+- [caliper](./caliper.md)
+- [multimeter](./multimeter.md)
+- [ravin](./ravin.md)
+- [ultrasonic](./ultrasonic.md)
 
 |   |   |   |
 | --- | --- | --- |

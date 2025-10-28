@@ -1,5 +1,25 @@
+from bluer_objects.README.items import ImageItems
+
+from bluer_academy.academy.syllabus import syllabus
+
+
 docs = [
     {
         "path": "../docs/academy",
+        "macros": {
+            "table:::": syllabus.as_markdown[1],
+            "duration:::": [
+                f"⏳ duration: {syllabus.duration:.1f} hours",
+            ],
+        },
     },
+] + [
+    {
+        "path": topic.filename(create=True),
+        "items": ImageItems(topic.items),
+        "macros": {
+            "content:::": topic.as_markdown,
+        },
+    }
+    for topic in syllabus.list_of_topics
 ]
