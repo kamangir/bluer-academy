@@ -1,7 +1,7 @@
 from bluer_academy.academy.classes.topic import Topic
 
 topic = Topic(
-    "geospatial sources",
+    "geospatial-sources",
     [
         "[maxar open data](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/maxar_open_data): disaster management",
         "[copernicus](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/copernicus): sentinel2 1 & 2",
