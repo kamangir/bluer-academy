@@ -2,9 +2,12 @@ from typing import List, Tuple
 import networkx as nx
 
 from bluer_options.logger import shorten_text
+from bluer_objects import objects
+from bluer_flow.workflow import dot_file
 
 from bluer_academy.academy.classes.topic import Topic
 from bluer_academy.logger import logger
+from bluer_academy import fullname
 
 
 class Syllabus:
@@ -15,6 +18,18 @@ class Syllabus:
         self.list_of_topics: List[Topic] = list_of_topics
 
         assert self.expand_requirements()
+
+    def as_image(self, filename: str) -> bool:
+        success, G = self.as_graph()
+        if not success:
+            return success
+
+        return dot_file.export_graph_as_image(
+            G,
+            filename,
+            colormap=dot_file.status_color_map,
+            caption=fullname(),
+        )
 
     @property
     def as_markdown(self) -> Tuple[bool, List[str]]:

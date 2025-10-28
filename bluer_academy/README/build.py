@@ -10,30 +10,33 @@ from bluer_academy.README import academy, ai4k
 
 
 def build():
-    return all(
-        README.build(
-            items=readme.get("items", []),
-            path=os.path.join(file.path(__file__), readme["path"]),
-            ICON=ICON,
-            NAME=NAME,
-            VERSION=VERSION,
-            REPO_NAME=REPO_NAME,
-            help_function=lambda tokens: get_help(
-                tokens,
-                help_functions,
-                mono=True,
-            ),
-            macros=readme.get("macros", {}),
+    return (
+        all(
+            README.build(
+                items=readme.get("items", []),
+                path=os.path.join(file.path(__file__), readme["path"]),
+                ICON=ICON,
+                NAME=NAME,
+                VERSION=VERSION,
+                REPO_NAME=REPO_NAME,
+                help_function=lambda tokens: get_help(
+                    tokens,
+                    help_functions,
+                    mono=True,
+                ),
+                macros=readme.get("macros", {}),
+            )
+            for readme in [
+                {
+                    "path": "../..",
+                    "items": items,
+                },
+                {
+                    "path": "../docs",
+                },
+            ]
+            + academy.docs
+            + ai4k.docs
         )
-        for readme in [
-            {
-                "path": "../..",
-                "items": items,
-            },
-            {
-                "path": "../docs",
-            },
-        ]
-        + academy.docs
-        + ai4k.docs
+        and academy.build()
     )

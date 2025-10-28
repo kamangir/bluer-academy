@@ -1,4 +1,5 @@
 from bluer_objects.README.items import ImageItems
+from bluer_objects import file
 
 from bluer_academy.academy.syllabus import syllabus
 
@@ -23,3 +24,12 @@ docs = [
     }
     for topic in syllabus.list_of_topics
 ]
+
+
+def build() -> bool:
+    return syllabus.as_image(
+        file.absolute(
+            "../assets/syllabus.png",
+            file.path(__file__),
+        ),
+    )
