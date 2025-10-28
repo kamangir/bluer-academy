@@ -32,3 +32,5 @@ def test_academy_syllabus():
     assert success
     for line in table:
         assert isinstance(line, str)
+
+    syllabus.expand_requirements()

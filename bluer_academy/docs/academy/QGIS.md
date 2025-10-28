@@ -7,6 +7,6 @@ includes:
 - generating styled QGIS projects with algo.
 - @QGIS.
 
-requires: [geospatial](./geospatial.md)
+requires: [bash](./bash.md), [geospatial](./geospatial.md), [linux](./linux.md), [python](./python.md)
 
 ⏳ duration: 3.0 hours

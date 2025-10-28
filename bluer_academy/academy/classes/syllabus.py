@@ -12,6 +12,8 @@ class Syllabus:
     ):
         self.list_of_topics: List[Topic] = list_of_topics
 
+        assert self.expand_requirements()
+
     @property
     def as_markdown(self) -> Tuple[bool, List[str]]:
         success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
@@ -75,6 +77,25 @@ class Syllabus:
                 if isinstance(topic.duration, float)
             ]
         )
+
+    def expand_requirements(self) -> bool:
+        success, G = self.as_graph()
+        if not success:
+            return success
+
+        success, sorted_list_of_topic_names = self.sorted_list_of_topic_names
+        if not success:
+            return success
+
+        for topic_name in sorted_list_of_topic_names:
+            topic = self.topic(topic_name)
+            for topic_name_ in G.predecessors(topic_name):
+                topic_ = self.topic(topic_name_)
+                topic_.requirements = sorted(
+                    list(set(topic_.requirements + topic.requirements))
+                )
+
+        return True
 
     @property
     def list_of_topic_names(self) -> List[str]:

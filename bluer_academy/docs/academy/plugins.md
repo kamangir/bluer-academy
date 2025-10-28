@@ -3,6 +3,6 @@
 includes:
 - writing an AI plugin.
 
-requires: [math](./math.md), [python](./python.md), [bash](./bash.md), [github](./github.md)
+requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
 ⏳ duration: 3.0 hours
