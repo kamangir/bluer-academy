@@ -1,3 +1,5 @@
+from bluer_objects.README.consts import assets_url
+
 from bluer_academy.academy.syllabus.consts import bluer_geo_blob
 from bluer_academy.academy.classes.topic import Topic
 
@@ -12,5 +14,9 @@ topic = Topic(
     ],
     duration=3,
     requires="geospatial",
-    items={},
+    items={
+        assets_url(
+            "blue-geo/QGIS.png",
+        ): f"{bluer_geo_blob}/QGIS"
+    },
 )
