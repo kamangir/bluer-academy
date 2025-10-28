@@ -3,7 +3,7 @@
 includes:
 - [running a timeseries on Sentinel-2 on Miduk](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch).
 
-requires: [bash](./bash.md), [geospatial](./geospatial.md), [geospatial-sources](./geospatial-sources.md), [linux](./linux.md), [python](./python.md)
+requires: [bash](./bash.md), [cloud](./cloud.md), [geospatial](./geospatial.md), [geospatial-sources](./geospatial-sources.md), [linux](./linux.md), [objects](./objects.md), [python](./python.md)
 
 ⏳ duration: 6.0 hours
 
