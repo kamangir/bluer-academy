@@ -11,7 +11,7 @@ docs = [
             [
                 {
                     "name": topic.name,
-                    "image": list(topic.items.keys())[0],
+                    "marquee": list(topic.items.keys())[0],
                     "url": "./syllabus/{}.md".format(topic.name),
                 }
                 for topic in syllabus.list_of_topics
