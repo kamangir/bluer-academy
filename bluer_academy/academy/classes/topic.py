@@ -47,4 +47,12 @@ class Topic:
 
     @property
     def as_markdown(self) -> List[str]:
-        return ["🔥"]
+        return [
+            "🔥",
+            "requires: {}".format(
+                ",".join(
+                    f"[{topic_name}](./{topic_name}.md)"
+                    for topic_name in self.requirements
+                )
+            ),
+        ]
