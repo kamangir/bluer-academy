@@ -7,6 +7,13 @@ from bluer_academy.academy.syllabus import syllabus
 docs = [
     {
         "path": "../docs/academy",
+        "items": ImageItems(
+            {
+                list(topic.items.keys())[0]: topic.items[list(topic.items.keys())[0]]
+                for topic in syllabus.list_of_topics
+                if topic.items
+            }
+        ),
         "macros": {
             "table:::": syllabus.as_markdown[1],
             "duration:::": [

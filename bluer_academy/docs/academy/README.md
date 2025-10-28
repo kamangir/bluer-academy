@@ -29,4 +29,18 @@
 
 ⏳ total duration: 105.0 hours
 
+
+<details>
+<summary>graph</summary>
+
 ![image](../../assets/syllabus.png)
+
+</details>
+
+
+## capstone projects
+
+|   |   |   |
+| --- | --- | --- |
+| [![image](https://github.com/kamangir/assets/raw/main/blue-geo/Maxar-Open-Datacube.png?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/catalog/maxar_open_data) | [![image](https://github.com/kamangir/assets/raw/main/geo-watch-2025-05-23-2ck64x/geo-watch-2025-05-23-2ck64x.gif?raw=true)](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch) | [![image](https://github.com/kamangir/assets2/raw/main/ravin/20250723_095155~2_1.gif?raw=true)](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/ravin/ravin3) |
+| [![image](https://github.com/kamangir/assets/raw/main/arzhang/VID-20250905-WA0014_1.gif?raw=true)](https://github.com/kamangir/bluer-ugv) |  |  |
