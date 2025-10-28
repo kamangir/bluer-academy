@@ -7,7 +7,6 @@ includes:
 
 ⬅️ requires: [bash](./bash.md), [basic-electronics](./basic-electronics.md), [documentation](./documentation.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
-➡️ required for: [documentation](./documentation.md), [basic-electronics](./basic-electronics.md)
 
 ⏳ duration: 6.0 hours
 

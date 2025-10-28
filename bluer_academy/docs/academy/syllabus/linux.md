@@ -7,7 +7,6 @@ includes:
 
 ⬅️ requires: [math](./math.md)
 
-➡️ required for: [math](./math.md)
 
 ⏳ duration: 3.0 hours
 

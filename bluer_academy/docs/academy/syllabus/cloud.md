@@ -9,7 +9,6 @@ includes:
 
 ⬅️ requires: [linux](./linux.md), [math](./math.md)
 
-➡️ required for: [linux](./linux.md)
 
 ⏳ duration: 6.0 hours
 

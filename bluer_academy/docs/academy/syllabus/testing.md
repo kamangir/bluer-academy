@@ -9,7 +9,6 @@ includes:
 
 ⬅️ requires: [bash](./bash.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [python](./python.md)
 
-➡️ required for: [github](./github.md), [python](./python.md), [bash](./bash.md)
 
 ⏳ duration: 6.0 hours
 

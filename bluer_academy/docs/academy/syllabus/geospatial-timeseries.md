@@ -7,7 +7,6 @@ includes:
 
 ⬅️ requires: [QGIS](./QGIS.md), [bash](./bash.md), [cloud](./cloud.md), [documentation](./documentation.md), [geospatial](./geospatial.md), [geospatial-sources](./geospatial-sources.md), [github](./github.md), [linux](./linux.md), [math](./math.md), [objects](./objects.md), [plugins](./plugins.md), [python](./python.md), [testing](./testing.md)
 
-➡️ required for: [geospatial](./geospatial.md), [geospatial-sources](./geospatial-sources.md)
 
 ⏳ duration: 6.0 hours
 

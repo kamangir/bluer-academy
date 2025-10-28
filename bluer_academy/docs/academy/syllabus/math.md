@@ -7,7 +7,6 @@ includes:
 ---
 
 
-➡️ required for: 
 
 ⏳ duration: 3.0 hours
 
