@@ -12,7 +12,7 @@ includes:
 ---
 
 
-➡️ required for: [rccar](./rccar.md), [ugv](./ugv.md)
+➡️ required for: [rccar](./rccar.md), [ugv](./ugv.md), [rccar_arduino](./rccar_arduino.md)
 
 ⏳ duration (hours): 6.0 - including requirements: 6.0
 
