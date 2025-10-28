@@ -1,13 +1,18 @@
 from bluer_academy.academy.classes.syllabus import Syllabus
 from bluer_academy.academy.syllabus import (
+    aiart,
     bash,
     basic_electronics,
+    city_watching,
     cloud,
     documentation,
+    flow_management,
     geospatial,
+    geospatial_semseg,
     geospatial_sources,
     geospatial_timeseries,
     github,
+    journal,
     linux,
     machine_vision,
     math,
@@ -17,23 +22,31 @@ from bluer_academy.academy.syllabus import (
     python,
     QGIS,
     rccar,
+    rccar_arduino,
+    sandbox,
     sbc,
     testing,
     ugv,
+    yolo,
 )
 
 syllabus = Syllabus(
     [
         module.topic
         for module in [
+            aiart,
             bash,
             basic_electronics,
+            city_watching,
             cloud,
             documentation,
+            flow_management,
             geospatial,
+            geospatial_semseg,
             geospatial_sources,
             geospatial_timeseries,
             github,
+            journal,
             linux,
             machine_vision,
             objects,
@@ -43,9 +56,12 @@ syllabus = Syllabus(
             python,
             QGIS,
             rccar,
+            rccar_arduino,
+            sandbox,
             sbc,
             testing,
             ugv,
+            yolo,
         ]
     ]
 )

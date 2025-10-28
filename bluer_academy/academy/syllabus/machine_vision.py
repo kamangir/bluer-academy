@@ -1,13 +1,15 @@
 from bluer_academy.academy.classes.topic import Topic
+from bluer_academy.academy.syllabus.consts import bluer_algo_blob
 
 topic = Topic(
     "machine-vision",
     [
         "opencv",
         "pytorch",
-        "[image classification](https://github.com/kamangir/bluer-algo/blob/main/bluer_algo/docs/image_classifier)",
-        "[target tracking](https://github.com/kamangir/bluer-algo/blob/main/bluer_algo/docs/tracker)",
-        "[yolo](https://github.com/kamangir/bluer-algo/blob/main/bluer_algo/docs/yolo)",
+        f"[image classification]({bluer_algo_blob}/docs/image_classifier)",
+        f"[target tracking]({bluer_algo_blob}/docs/tracker)",
+        f"[yolo]({bluer_algo_blob}/docs/yolo)",
+        "[semantic segmentation](https://github.com/kamangir/roofai)",
     ],
     duration=12,
     requires="python,bash",

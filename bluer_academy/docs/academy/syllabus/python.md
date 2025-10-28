@@ -7,12 +7,13 @@ includes:
 - numpy.
 - pandas.
 - matplotlib.
+- working with web APIs.
 
 ---
 
 ⬅️ requires: [github](./github.md), [linux](./linux.md), [math](./math.md)
 
-➡️ required for: [bash](./bash.md), [documentation](./documentation.md), [machine-vision](./machine-vision.md), [objects](./objects.md), [pypi](./pypi.md), [sbc](./sbc.md), [testing](./testing.md), [plugins](./plugins.md), [rccar](./rccar.md), [ugv](./ugv.md), [geospatial](./geospatial.md), [QGIS](./QGIS.md), [geospatial-sources](./geospatial-sources.md), [geospatial-timeseries](./geospatial-timeseries.md)
+➡️ required for: [bash](./bash.md), [aiart](./aiart.md), [documentation](./documentation.md), [flow-management](./flow-management.md), [journal](./journal.md), [machine-vision](./machine-vision.md), [objects](./objects.md), [pypi](./pypi.md), [sandbox](./sandbox.md), [sbc](./sbc.md), [testing](./testing.md), [plugins](./plugins.md), [rccar](./rccar.md), [ugv](./ugv.md), [geospatial](./geospatial.md), [rccar_arduino](./rccar_arduino.md), [yolo](./yolo.md), [QGIS](./QGIS.md), [city-watching](./city-watching.md), [geospatial-sources](./geospatial-sources.md), [geospatial-semseg](./geospatial-semseg.md), [geospatial-timeseries](./geospatial-timeseries.md)
 
-⏳ duration: 12.0 hours
+⏳ duration (hours): 12.0 - including requirements: 21.0
 

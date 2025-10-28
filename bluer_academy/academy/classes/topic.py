@@ -12,6 +12,7 @@ class Topic:
         cost: Union[float, str] = 0,
         requires: Union[str, List[str]] = "",
         items: Dict[str, str] = {},
+        cols: int = 3,
     ):
         self.name: str = name
         self.agenda: List[str] = agenda
@@ -24,8 +25,12 @@ class Topic:
             )
             if requirement
         ]
-        self.required_for: List[str] = []
         self.items = items
+        self.cols = cols
+
+        # expanded
+        self.required_for: List[str] = []
+        self.total_duration: float = 0.0
 
     def filename(
         self,
@@ -86,7 +91,11 @@ class Topic:
             + (
                 [
                     "",
-                    f"⏳ duration: {self.duration:.1f} hours",
+                    "⏳ duration (hours): {:.1f} - "
+                    "including requirements: {:.1f}".format(
+                        self.duration,
+                        self.total_duration,
+                    ),
                 ]
                 if self.duration
                 else []

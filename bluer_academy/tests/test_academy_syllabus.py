@@ -26,7 +26,11 @@ def test_academy_syllabus():
     with pytest.raises(NameError):
         syllabus.topic("astronomy")
 
-    assert isinstance(syllabus.duration, float)
+    assert isinstance(syllabus.duration(), float)
+    for what in ["min", "max", "total"]:
+        assert isinstance(syllabus.duration(what), float)
+    with pytest.raises(NameError):
+        syllabus.duration("void")
 
     success, table = syllabus.as_markdown
     assert success

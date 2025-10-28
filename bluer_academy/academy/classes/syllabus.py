@@ -43,7 +43,7 @@ class Syllabus:
             return success, []
 
         table: List[str] = [
-            "| capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
+            "| | capstone project? | duration (hours) | duration, including requirements (hours) | depends on: |"
             + "".join(
                 [
                     " [{}](./syllabus/{}.md) |".format(
@@ -56,9 +56,10 @@ class Syllabus:
                     for topic_name in sorted_list_of_topic_names
                 ]
             ),
-            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 4)]),
+            "|" + "".join(["-|" for _ in range(len(sorted_list_of_topic_names) + 5)]),
         ] + [
-            "| {} | {} | {} | [{}](./syllabus/{}.md) |".format(
+            "| {} | {} | {} | {} | [{}](./syllabus/{}.md) |".format(
+                index + 1,
                 "📐" if self.topic(topic_name).items else "",
                 "{:.1f}".format(self.topic(topic_name).duration),
                 "{:.1f}".format(self.duration_of(topic_name)),
@@ -75,7 +76,7 @@ class Syllabus:
                     for topic_name_ in sorted_list_of_topic_names
                 ]
             )
-            for topic_name in sorted_list_of_topic_names
+            for index, topic_name in enumerate(sorted_list_of_topic_names)
         ]
 
         return success, table
@@ -103,9 +104,20 @@ class Syllabus:
 
         return True, G
 
-    @property
-    def duration(self) -> float:
-        return sum(topic.duration for topic in self.list_of_topics)
+    def duration(
+        self,
+        what: str = "total",
+    ) -> float:
+        if what == "max":
+            return max(topic.duration for topic in self.list_of_topics)
+
+        if what == "min":
+            return min(topic.duration for topic in self.list_of_topics)
+
+        if what == "total":
+            return sum(topic.duration for topic in self.list_of_topics)
+
+        raise NameError(f"{self.__class__.__name__}.duration_of({what}) not found.")
 
     def duration_of(self, topic_name: str) -> float:
         return self.topic(topic_name).duration + sum(
@@ -137,6 +149,7 @@ class Syllabus:
                 for topic_name_ in sorted_list_of_topic_names
                 if topic_name in self.topic(topic_name_).requirements
             ]
+            topic.total_duration = self.duration_of(topic_name)
 
         return True
 

@@ -2,6 +2,8 @@ title:::
 
 📐 an academy for practical AI in Iran.
 
+instructions: ([en](./instructions/en.md)), 🇮🇷 ([fa](./instructions/fa.md))
+
 ## syllabus
 
 table:::

@@ -15,6 +15,7 @@ def build():
             README.build(
                 items=readme.get("items", []),
                 path=os.path.join(file.path(__file__), readme["path"]),
+                cols=readme.get("cols", 3),
                 ICON=ICON,
                 NAME=NAME,
                 VERSION=VERSION,
