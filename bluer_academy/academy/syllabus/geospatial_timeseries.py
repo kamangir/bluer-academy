@@ -9,7 +9,7 @@ topic = Topic(
         "[running a timeseries on Sentinel-2 on Miduk](https://github.com/kamangir/bluer-geo/tree/main/bluer_geo/watch)",
     ],
     duration=6,
-    requires="geospatial",
+    requires="geospatial, geospatial-sources",
     items=ImageItems(
         {
             assets_url(

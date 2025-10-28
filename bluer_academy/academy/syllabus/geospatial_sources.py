@@ -1,15 +1,26 @@
+from bluer_objects.README.items import ImageItems
+from bluer_objects.README.consts import assets_url
+
+from bluer_academy.academy.syllabus.consts import bluer_geo_blob, bluer_geo_tree
 from bluer_academy.academy.classes.topic import Topic
 
 topic = Topic(
     "geospatial-sources",
     [
-        "[maxar open data](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/maxar_open_data): disaster management",
-        "[copernicus](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/copernicus): sentinel2 1 & 2",
-        "[firms](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/firms): fire information",
-        "[global power plant](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/objects/md/global_power_plant_database.md): open source database of power plants around the world",
-        "[ukraine damage map](https://github.com/kamangir/bluer-geo/blob/main/bluer_geo/catalog/ukraine_timemap)",
+        f"[maxar open data]({bluer_geo_blob}/catalog/maxar_open_data): disaster management",
+        f"[copernicus]({bluer_geo_blob}/catalog/copernicus): sentinel2 1 & 2",
+        f"[firms]({bluer_geo_blob}/catalog/firms): fire information",
+        f"[global power plant]({bluer_geo_blob}/objects/md/global_power_plant_database.md): open source database of power plants around the world",
+        f"[ukraine damage map]({bluer_geo_blob}/catalog/ukraine_timemap)",
     ],
     duration=0,
     cost=0,
     requires="geospatial",
+    items=ImageItems(
+        {
+            assets_url(
+                suffix="blue-geo/Maxar-Open-Datacube.png"
+            ): f"{bluer_geo_tree}/catalog/maxar_open_data"
+        }
+    ),
 )
