@@ -9,7 +9,7 @@ docs = [
         "path": "../docs/academy",
         "items": ImageItems(
             {
-                list(topic.items.keys())[0]: topic.items[list(topic.items.keys())[0]]
+                list(topic.items.keys())[0]: "./syllabus/{}.md".format(topic.name)
                 for topic in syllabus.list_of_topics
                 if topic.items
             }
