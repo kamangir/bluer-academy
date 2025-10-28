@@ -48,7 +48,8 @@ class Topic:
     @property
     def as_markdown(self) -> List[str]:
         return (
-            self.items
+            ["includes:"]
+            + [f"- {item}" for item in self.items]
             + [""]
             + (
                 [

@@ -1,7 +1,8 @@
 # academy: testing
 
-pylint
-pytest
-bashtest
+includes:
+- pylint
+- pytest
+- bashtest
 
 requires: [github](./github.md), [python](./python.md), [bash](./bash.md)

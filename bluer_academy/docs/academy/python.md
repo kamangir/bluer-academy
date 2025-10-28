@@ -1,7 +1,8 @@
 # academy: python
 
-setting up python
-cli's and imports
-jupyter notebooks
+includes:
+- setting up python
+- cli's and imports
+- jupyter notebooks
 
 requires: [linux](./linux.md)
