@@ -1,3 +1,4 @@
 # academy: documentation
 
-content:::
+🔥
+requires: [github](./github.md),[python](./python.md),[bash](./bash.md)

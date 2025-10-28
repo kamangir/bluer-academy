@@ -1,3 +1,4 @@
 # academy: cloud
 
-content:::
+🔥
+requires: [linux](./linux.md)

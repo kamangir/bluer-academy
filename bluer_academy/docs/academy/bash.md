@@ -1,3 +1,4 @@
 # academy: bash
 
-content:::
+🔥
+requires: [linux](./linux.md),[python](./python.md)

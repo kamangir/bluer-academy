@@ -1,3 +1,4 @@
 # academy: pypi
 
-content:::
+🔥
+requires: [linux](./linux.md),[python](./python.md),[github](./github.md),[bash](./bash.md)

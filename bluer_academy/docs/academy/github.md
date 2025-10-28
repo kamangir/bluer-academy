@@ -1,3 +1,4 @@
 # academy: github
 
-content:::
+🔥
+requires: [linux](./linux.md)

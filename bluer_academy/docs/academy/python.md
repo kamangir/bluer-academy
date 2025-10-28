@@ -1,3 +1,4 @@
 # academy: python
 
-content:::
+🔥
+requires: [linux](./linux.md)

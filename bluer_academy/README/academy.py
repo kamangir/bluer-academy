@@ -12,7 +12,7 @@ docs = [
     {
         "path": topic.filename(create=True),
         "macros": {
-            "topic:::": topic.as_markdown,
+            "content:::": topic.as_markdown,
         },
     }
     for topic in syllabus.list_of_topics

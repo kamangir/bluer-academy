@@ -1,3 +1,4 @@
 # academy: objects
 
-content:::
+🔥
+requires: [cloud](./cloud.md),[python](./python.md),[bash](./bash.md)
