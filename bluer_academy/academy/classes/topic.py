@@ -1,5 +1,7 @@
 from typing import List, Union
 
+from bluer_objects import file
+
 
 class Topic:
     def __init__(
@@ -17,3 +19,32 @@ class Topic:
             )
             if requirement
         ]
+
+    def filename(
+        self,
+        create: bool = False,
+    ) -> str:
+        reference = file.path(__file__)
+        filename = file.absolute(
+            f"../../docs/academy/{self.name}.md",
+            reference,
+        )
+
+        if not create or file.exists(filename):
+            return filename
+
+        template_filename = file.absolute(
+            "../../docs/academy/template-template.md",
+            reference,
+        )
+        assert file.copy(
+            template_filename,
+            file.add_suffix(filename, "template"),
+            log=True,
+        ), template_filename
+
+        return filename
+
+    @property
+    def as_markdown(self) -> List[str]:
+        return ["🔥"]

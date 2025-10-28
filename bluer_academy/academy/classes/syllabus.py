@@ -90,8 +90,6 @@ class Syllabus:
             if not roots:
                 break
 
-            print(f"roots: {roots}")
-
             visited += roots
 
             for node in roots:

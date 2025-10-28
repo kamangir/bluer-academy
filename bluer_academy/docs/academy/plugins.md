@@ -1,0 +1,3 @@
+# academy: plugins
+
+content:::

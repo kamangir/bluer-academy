@@ -1,13 +1,19 @@
 from bluer_academy.academy.syllabus import syllabus
 
-success, table = syllabus.as_table
-assert success
 
 docs = [
     {
         "path": "../docs/academy",
         "macros": {
-            "table:::": table,
+            "table:::": syllabus.as_table[1],
         },
     },
+] + [
+    {
+        "path": topic.filename(create=True),
+        "macros": {
+            "topic:::": topic.as_markdown,
+        },
+    }
+    for topic in syllabus.list_of_topics
 ]
