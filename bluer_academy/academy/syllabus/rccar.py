@@ -14,7 +14,7 @@ topic = Topic(
     items={
         "{}/20250723_095155~2_1.gif".format(
             assets_url(
-                suffix="ravin3",
+                suffix="ravin",
                 volume=2,
             )
         ): f"{bluer_ugv_blob}/docs/ravin/ravin3",
@@ -23,6 +23,6 @@ topic = Topic(
                 suffix="ravin4",
                 volume=2,
             )
-        ): f"{bluer_ugv_blob}/docs/ravin/ravin3",
+        ): f"{bluer_ugv_blob}/docs/ravin/ravin4",
     },
 )
