@@ -7,6 +7,7 @@ topic = Topic(
     "basic-electronics",
     [
         "basic electronics",
+        "[what is a PCB?](https://learn.sparkfun.com/tutorials/pcb-basics/all)",
         "power management",
         "voltage conversion",
         "soldiering, working with electronic parts",
