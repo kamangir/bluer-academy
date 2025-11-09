@@ -1,7 +1,7 @@
 # academy: syllabus: yolo
 
 includes:
-- [Yolo on a UGV](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/arzhang/validation/village-3.md).
+- [Yolo on a UGV](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/validations/village-3.md).
 
 ---
 
@@ -12,4 +12,4 @@ includes:
 
 |   |
 | --- |
-| [![image](https://github.com/kamangir/assets/raw/main/swallow-debug-2025-09-25-13-16-59-rnm7jd/swallow-debug-2025-09-25-13-16-59-rnm7jd.gif?raw=true)](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/arzhang/validation/village-3.md) |
+| [![image](https://github.com/kamangir/assets/raw/main/swallow-debug-2025-09-25-13-16-59-rnm7jd/swallow-debug-2025-09-25-13-16-59-rnm7jd.gif?raw=true)](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/validations/village-3.md) |
