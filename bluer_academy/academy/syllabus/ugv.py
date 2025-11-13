@@ -15,7 +15,7 @@ topic = Topic(
         f"[ugv computer design]({bluer_ugv_blob}/docs/swallow/digital/design)",
         f"[camera interfacing]({bluer_sbc_tree}/imager)",
         f"[ultrasonic sensors]({bluer_ugv_blob}/docs/swallow/digital/design/ultrasonic-sensor), [ble](https://github.com/kamangir/bluer-algo/blob/main/bluer_algo/docs/bps)",
-        f"[PCB prototyping]({bluer_ugv_tree}/docs/swallow/digital/design/shield.md)",
+        f"[PCB prototyping]({bluer_ugv_tree}/docs/swallow/digital/design/shield)",
     ],
     duration=12,
     requires="sbc,machine-vision,basic-electronics",
