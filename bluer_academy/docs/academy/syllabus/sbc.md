@@ -15,4 +15,4 @@ includes:
 
 |   |   |   |
 | --- | --- | --- |
-| [![image](https://github.com/kamangir/assets2/raw/main/swallow/design/head-v1/01.jpg?raw=true)](https://github.com/kamangir/bluer-sbc/blob/main/bluer_sbc/docs/swallow-head.md) | [![image](https://github.com/kamangir/assets2/raw/main/swallow/design/v5/01.jpg?raw=true)](https://github.com/kamangir/bluer-sbc/blob/main/bluer_sbc/docs/swallow.md) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg?raw=true)](https://github.com/kamangir/blue-bracket) |
+| [![image](https://github.com/kamangir/assets2/raw/main/swallow/design/head-v1/01.jpg?raw=true)](https://github.com/kamangir/bluer-sbc/blob/main/bluer_sbc/docs/swallow-head) | [![image](https://github.com/kamangir/assets2/raw/main/swallow/design/v5/01.jpg?raw=true)](https://github.com/kamangir/bluer-sbc/blob/main/bluer_sbc/docs/swallow) | [![image](https://github.com/kamangir/blue-bracket/raw/main/images/chenar-grove-1.jpg?raw=true)](https://github.com/kamangir/blue-bracket) |
