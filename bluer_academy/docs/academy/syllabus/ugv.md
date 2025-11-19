@@ -5,7 +5,7 @@ includes:
 - [ugv computer design](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design).
 - [camera interfacing](https://github.com/kamangir/bluer-sbc/tree/main/bluer_sbc/imager).
 - [ultrasonic sensors](https://github.com/kamangir/bluer-ugv/blob/main/bluer_ugv/docs/swallow/digital/design/ultrasonic-sensor), [ble](https://github.com/kamangir/bluer-algo/blob/main/bluer_algo/docs/bps).
-- [PCB prototyping](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow/digital/design/shield).
+- [PCB prototyping](https://github.com/kamangir/bluer-ugv/tree/main/bluer_ugv/docs/swallow/digital/design/computer).
 
 ---
 
