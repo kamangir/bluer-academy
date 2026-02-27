@@ -9,10 +9,11 @@ from bluer_academy.README.items import items
 from bluer_academy.README import academy, ai4k
 
 
-def build():
+def build(args):
     return (
         all(
             README.build(
+                args=args,
                 items=readme.get("items", []),
                 path=os.path.join(file.path(__file__), readme["path"]),
                 cols=readme.get("cols", 3),
